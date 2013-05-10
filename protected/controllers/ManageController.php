@@ -137,6 +137,57 @@ $message = null;
         $this->render('manageLessonGroup', array('message' => $message, 'data' => $data));
 
     }
+    public function actionManageInvoice()
+    {
+        $invoice = new Invoice('search');
+                if (isset($_GET['student_id']))
+            {
+                $dataProvider = $invoice->search($_GET['student_id']);
+            }
+            else
+            {
+                  $dataProvider = $invoice->search();
+            }
+            $student_id = $_GET['student_id'];
+
+		$model=new Invoice('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['Invoice']))
+			$model->attributes=$_GET['Invoice'];
+
+		$this->render('manageInvoice',array(
+			'model'=>$model,
+                    'dataProvider'=>$dataProvider,
+		));
+    }
+               public function actionManagePrice()
+           {
+                $model=Price::model()->findAll();
+
+		$this->render('managePrice',array(
+			'model'=>$model,
+		));
+           }
+	public function actionUpdatePrice($id)
+	{
+            	$model=Price::model()->findByPk($id);
+		if($model===null)
+			throw new CHttpException(404,'The requested page does not exist.');
+		
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['Price']))
+		{
+			$model->attributes=$_POST['Price'];
+			if($model->save())
+				$this->redirect(array('managePrice'));
+		}
+
+		$this->render('updatePrice',array(
+			'model'=>$model,
+		));
+	}
 
     // Uncomment the following methods and override them if needed
     /*

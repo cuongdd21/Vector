@@ -86,6 +86,8 @@ class Lesson extends CActiveRecord
 		return array(
          'sessions' => array(self::HAS_MANY, 'Session', 'lesson_id'),
                   'students' => array(self::HAS_MANY, 'Studentlesson', 'lesson_id'),
+                                         'price' => array(self::BELONGS_TO, 'Price', 'price_id'),
+                      'invoices' => array(self::HAS_MANY, 'Invoice', 'lesson_id'),      
 		);
 	}
 

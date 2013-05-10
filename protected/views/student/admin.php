@@ -69,6 +69,11 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
         'urlExpression'=>'Yii::app()->createUrl("manage/manageStudentAttendance",array("student_id"=>$data->id))',
         )
         ,
+                     array('header'=>'Invoice',
+        'class'=>'CLinkColumn',
+        'label'=>'view',
+        'urlExpression'=>'Yii::app()->createUrl("manage/manageInvoice",array("student_id"=>$data->id,))',
+        ),
 		/*
 		'parent_id',
 		'school_id',

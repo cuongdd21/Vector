@@ -1,6 +1,6 @@
 <?php
 require_once( dirname(__FILE__) . '/../components/ScheduleHelper.php');
-
+require_once( dirname(__FILE__) . '/../components/PaymentHelper.php');
 
 class LessonController extends Controller
 {
@@ -65,7 +65,8 @@ class LessonController extends Controller
 	public function actionCreate()
 	{
 		$model=new Lesson;
-
+                $invoice = new Invoice;
+                $price=Price::model()->findAll();
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
@@ -92,8 +93,17 @@ class LessonController extends Controller
                         throw new CHttpException('Unable to enrol this Lesson due to Week '.($i+1).' '.getDayText($day+1).' Slot is not available!');
                     }
                     }
-            break;
-       
+
+                   
+                    if(isset($_POST['pricePackage']) && isset($_POST['priceGroup']) && isset($_POST['priceDegree']))
+                    {
+                        $inputPrice = $_POST['pricePackage'].$_POST['priceGroup'].$_POST['priceDegree'];
+                        $priceId = getPriceId($inputPrice);
+                    } else throw new CHttpException('Unable to input price list');
+                    
+          // save lesson
+			$model->attributes=$_POST['Lesson'];
+                        $model->price_id=$priceId;
           
           // save lesson
 			$model->attributes=$_POST['Lesson'];
@@ -108,6 +118,13 @@ class LessonController extends Controller
                 $student_id_int = $model->student_id;
                 $id=$model->id;
                 
+                // create invoice
+                $invoice->number = $student_id . '000000';
+                $invoice->date_create = date('y-m-d h:m:s');
+                $invoice->status = 1;
+                $invoice->total = Price::model()->findByPk($priceId)->rate;
+                $invoice->student_id = $student_id;
+                $invoice->save();
                 // create student lesson
                 $studentlesson = New Studentlesson;
                 $studentlesson->student_id = $student_id_int;
@@ -182,6 +199,7 @@ class LessonController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
+                        'price'=>$price,                    
 		));
 	}
 

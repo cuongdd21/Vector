@@ -20,7 +20,7 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 ?>
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+	<?php echo $form->errorSummary($model, $price); ?>
 <?php
 	$model->term_id = Term::model()->getLatest()->id;
 ?>
@@ -95,11 +95,29 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 		<?php echo $form->textField($model,'subject_id'); ?>
 		<?php echo $form->error($model,'subject_id'); ?>
 	</div>
-
+        <div class="row">
+        <?php echo CHtml::label('Package','');?>
+        <?php echo CHtml::dropDownList('pricePackage', 'P', 
+              array('P' => 'Package', 'U' => 'Usual')
+              );
+        ?>
+            <?php echo CHtml::label('Group','');?>
+        <?php echo CHtml::dropDownList('priceGroup', 'I', 
+              array('G' => 'Group', 'I' => 'Individual')
+              );
+        ?>  
+                        <?php echo CHtml::label('Cetificate','');?>
+        <?php echo CHtml::dropDownList('priceDegree', 'J', 
+              array('J' => 'Junior', 'S' => 'Senior')
+              );
+        ?>  
+        </div>
 	<div class="row">
-		<?php echo $form->labelEx($model,'price_id'); ?>
-		<?php echo $form->textField($model,'price_id'); ?>
-		<?php echo $form->error($model,'price_id'); ?>
+        <?php echo CHtml::link('Price List','#',array('class'=>'search-button')); ?>
+            <div class="search-form" style="display:none">
+            <?php $this->renderPartial('/manage/managePrice',array(
+                    'model'=>$price,
+            )); ?>
 	</div>
 
 	<div class="row">
