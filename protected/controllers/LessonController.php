@@ -86,7 +86,7 @@ class LessonController extends Controller
                 {
                     
                     $session = getSessionAvailable($term->weeks[$i]->days[$day], $slot);
-                    print_r($session);
+                    //print_r($session);
   
                     if (($session !=null))
                     {

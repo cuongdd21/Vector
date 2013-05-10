@@ -2,6 +2,7 @@
 /* @var $this SessionController */
 /* @var $model Session */
 /* @var $form CActiveForm */
+require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 ?>
 
 <div class="form">
@@ -11,19 +12,22 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+<?php
+	echo CHtml::link('Mark Attendance',array('manage/manageSessionAttendance','session_id'=>$model->id));
+?>
 
+
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
+<?php
+
+
+
+?>
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'attendance'); ?>
-		<?php echo $form->textArea($model,'attendance',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'attendance'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'staff_id'); ?>
-		<?php echo $form->textField($model,'staff_id'); ?>
+<?php echo $form->dropDownList($model,'staff_id',getStaffList()); ?>
 		<?php echo $form->error($model,'staff_id'); ?>
 	</div>
 
@@ -59,7 +63,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'slot'); ?>
-		<?php echo $form->textField($model,'slot'); ?>
+		<?php echo $form->dropDownList($model,'slot',getSlotList()); ?>
 		<?php echo $form->error($model,'slot'); ?>
 	</div>
 
