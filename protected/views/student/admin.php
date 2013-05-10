@@ -69,6 +69,10 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
         'urlExpression'=>'Yii::app()->createUrl("manage/manageStudentAttendance",array("student_id"=>$data->id))',
         )
         ,
+        array(
+                        'header' => 'NumberOfInvoice',
+                        'value' => 'count($data->invoices)',  //and it works for me. It's important to put the ''s out
+                ),
                      array('header'=>'Invoice',
         'class'=>'CLinkColumn',
         'label'=>'view',
