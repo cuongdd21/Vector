@@ -2,6 +2,21 @@
 require_once(dirname(__FILE__).'/../components/PaymentHelper.php');
 class ManageController extends Controller
 {
+        	public function filters()
+	{
+		return array(
+			'accessControl', // perform access control for CRUD operations // we only allow deletion via POST request
+		);
+	}
+        public function accessRules()
+    {
+        return array(
+            array('deny',
+                'actions'=>array('index'),
+                'users'=>array('?'),
+            ),
+        );
+    }
 
     public function actionIndex()
     {

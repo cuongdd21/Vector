@@ -2,6 +2,12 @@
 
 class ScheduleController extends Controller
 {
+    	public function filters()
+	{
+		return array(
+			'accessControl', // perform access control for CRUD operations // we only allow deletion via POST request
+		);
+	}
 	public function actionIndex()
 	{
 	   
