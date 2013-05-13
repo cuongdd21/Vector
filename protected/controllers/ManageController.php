@@ -314,7 +314,23 @@ $message = null;
                   //  'data2'=>$testing,
                     'data3'=>$day_test,
 		));
-    }       
+    }      
+    public function actionViewPayslip($staff_id, $payslip_id)
+	{
+            	$payslip = Payslip::model()->findByPk($payslip_id);
+                $staff = Staff::model()->findByPk($staff_id);
+                $totalsession = $payslip->total / Paygrade::model()->findByPk($staff->paygrade_id)->session;
+		if($payslip===null)
+			throw new CHttpException(404,'The requested page does not exist.');
+		
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+		$this->render('viewPayslip',array(
+			'payslip'=>$payslip,
+                        'staff'=>$staff,
+                        'sessions'=>$totalsession,
+		));
+	}
     // Uncomment the following methods and override them if needed
     /*
     public function filters()

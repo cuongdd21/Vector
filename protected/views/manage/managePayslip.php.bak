@@ -62,7 +62,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
          array('header'=>'Print Payslip',
         'class'=>'CLinkColumn',
         'label'=>'Print Now',
-        'urlExpression'=>'Yii::app()->createUrl("manage/viewPayslip",array("staff_id"=>$data->staff_id,"payslip_id"=>$data->id))',
+        'urlExpression'=>'Yii::app()->createUrl("viewPayslip",array("staff_id"=>$data->staff_id,"payslip_id"=>$data->id))',
         ),
 	),
 )); ?>

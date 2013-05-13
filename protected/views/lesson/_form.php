@@ -52,12 +52,13 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 		<?php echo $form->labelEx($model,'start_week'); ?>
 		<?php echo $form->dropDownList($model,'start_week',getWeekList()); ?>
 		<?php echo $form->error($model,'start_week'); ?>
+                <?php echo $form->labelEx($model,'end_week'); ?>
+		<?php echo $form->dropDownList($model,'end_week',getWeekList()); ?>
+		<?php echo $form->error($model,'end_week'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'end_week'); ?>
-		<?php echo $form->dropDownList($model,'end_week',getWeekList()); ?>
-		<?php echo $form->error($model,'end_week'); ?>
+
 	</div>
 
 	<div class="row">
@@ -119,7 +120,7 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
                     'model'=>$price,
             )); ?>
 	</div>
-
+        </div>
 	<div class="row">
 		<?php echo $form->labelEx($model,'student_id'); ?>
 		<?php echo $form->dropDownList($model,'student_id',getStudentList()); ?>
