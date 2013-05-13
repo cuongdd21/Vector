@@ -38,7 +38,7 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'slot'); ?>
-		<?php echo $form->dropDownList($model,'slot',getSlotList()); ?>
+		<?php echo $form->dropDownList($model,'slot',getSlotListFull()); ?>
 		<?php echo $form->error($model,'slot'); ?>
 	</div>
 
