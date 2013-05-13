@@ -19,24 +19,14 @@ $current_week = $_GET['week']-1;
 }
 else
 {
-    echo 'start_time: '.$term->start_time;
-    
-    $date1 = $term->start_time;
+$date1 = $term->start_time;
 $date2 = 'NOW';
-
 $ts1 = strtotime($date1);
 $ts2 = strtotime($date2);
-
 $seconds_diff = $ts2 - $ts1;
-
 $days=floor($seconds_diff/3600/24);
-echo 'days:'.$days.'  ';
-
-
     $current_week=floor($days/7);
-    echo 'CURRENT WEEK:'.$current_week;
-    echo ' NOW:'.strtotime('NOW');
-    
+
 }
 $week=$term->weeks[$current_week];
 
@@ -54,8 +44,7 @@ Week:
     <?php if($current_week==7) {echo '<b>';} echo CHtml::link("8",array('schedule/display/week/8')); if($current_week==7) {echo '</b>';}?>
     <?php if($current_week==8) {echo '<b>';} echo CHtml::link("9",array('schedule/display/week/9')); if($current_week==8) {echo '</b>';}?>
     <?php if($current_week==9) {echo '<b>';} echo CHtml::link("10",array('schedule/display/week/10')); if($current_week==9) {echo '</b>';}?>
-    <?php if($current_week==10) {echo '<b>';} echo CHtml::link("11",array('schedule/display/week/11')); if($current_week==10) {echo '</b>';}?>
-    <?php if($current_week==11) {echo '<b>';} echo CHtml::link("12",array('schedule/display/week/12')); if($current_week==11) {echo '</b>';}?>
+    
 </div>
 <p></p>
 

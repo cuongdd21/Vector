@@ -40,7 +40,7 @@ class ScheduleController extends Controller
     public function actionDisplay()
     {      
        $term =Term::model()->getLatest();
-       echo 'term id:'.$term->id;
+    
         $weeks = $term->weeks;
         $display =1;
         

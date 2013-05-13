@@ -15,17 +15,8 @@ class TestController extends Controller
 	public function actionIndex()
 	{
 	 
-                    $session = new Session;
-                    $session->day_id=12;
-                    $session->staff_id=11;
-                    $session->slot = 8;
-                    $session->students_id = '12';
-                    $session->lesson_id = 9;
-                    $session->attendance ='';
-                    if (!$session->save())
-                    {
-                     throw new CHttpException('Unable to create Session');
-                    }  
+               echo 'aa';
+               break;
 //unset
 	}
 	/**
