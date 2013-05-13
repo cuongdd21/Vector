@@ -11,15 +11,6 @@ You last logged in on <?php echo Yii::app()->user->lastLogin; ?>.
 </p>
 <?php endif;?>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+Vector Tutoring is a high quality Australian private tutoring centre, well-regarded for its unique learning system and delivery method. Combining critical thinking and learning methods from the top education systems of the world, trained and qualified VCE specialist tutors help high school students achieve academic excellence.
+ 

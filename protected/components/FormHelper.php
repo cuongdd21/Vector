@@ -5,8 +5,11 @@ function getYesNo()
 }
 
 
-function getSlotList()
+function getSlotList($session)
 {
+    $day_no =$session->day->day_no;
+    if ($day_no>=6)
+    {
     return array(
         1 => "1",
         2 => "2",
@@ -32,6 +35,21 @@ function getSlotList()
         22 => "22",
         23 => "23",
         24 => "24");
+        }
+        else 
+        {
+            return array(
+        1 => "1",
+        2 => "2",
+        3 => "3",
+        4 => "4",
+        5 => "5",
+        6 => "6",
+        7 => "7",
+        8 => "8",
+        9 => "9");
+            
+        }
     //<?php echo $form->dropDownList($model,'requester_id',$model->project->getUserOptions());
     //
 

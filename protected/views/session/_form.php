@@ -3,6 +3,7 @@
 /* @var $model Session */
 /* @var $form CActiveForm */
 require_once(dirname(__FILE__).'/../../components/FormHelper.php');
+require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
 ?>
 
 <div class="form">
@@ -20,6 +21,12 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 <?php
 
+     $week_new = $model->day->week->week_no;
+     $day_new = $model->day->day_no;
+     echo CHtml::dropDownList('weeklist', $week_new,getWeekList());
+     echo CHtml::dropDownList('daylist', $day_new,getDayList());  
+     
+
 
 
 ?>
@@ -30,24 +37,14 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 <?php echo $form->dropDownList($model,'staff_id',getStaffList()); ?>
 		<?php echo $form->error($model,'staff_id'); ?>
 	</div>
-
 	<div class="row">
-		<?php echo $form->labelEx($model,'students_id'); ?>
-		<?php echo $form->textArea($model,'students_id',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'students_id'); ?>
+		<?php echo '<b>Students</b><br/>' ?>
+		<?php echo getSessionStudentsDisplay($model) ?>
+	
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'lesson_id'); ?>
-		<?php echo $form->textField($model,'lesson_id'); ?>
-		<?php echo $form->error($model,'lesson_id'); ?>
-	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'status'); ?>
-		<?php echo $form->textField($model,'status'); ?>
-		<?php echo $form->error($model,'status'); ?>
-	</div>
+
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'classroom_id'); ?>
@@ -63,7 +60,7 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'slot'); ?>
-		<?php echo $form->dropDownList($model,'slot',getSlotList()); ?>
+		<?php echo $form->dropDownList($model,'slot',getSlotList($model)); ?>
 		<?php echo $form->error($model,'slot'); ?>
 	</div>
 

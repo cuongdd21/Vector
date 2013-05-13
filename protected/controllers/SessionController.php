@@ -100,9 +100,14 @@ class SessionController extends Controller
           $day_new = $_POST['daylist'];
           $day_new_model = Term::model()->getLatest()->weeks[$week_new-1]->days[$day_new-1];
           $day_new_id = $day_new_model->id;
+          // neu nhu ko co gi thay doi
+          if (($model->day_id!=$day_new_model->id)||($model->slot!=$_POST['Session']['slot']))
+ 
+          {
           if (checkSessionSlot($day_new_model,$_POST['Session']['slot'])===true)
           {
           throw new CHttpException('The Session is already occupied and not available!');
+          }
           }
 			$model->attributes=$_POST['Session'];
              $model->day_id=$day_new_id;
