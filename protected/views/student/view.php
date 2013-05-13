@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Student', 'url'=>array('index')),
+
 	array('label'=>'Create Student', 'url'=>array('create')),
 	array('label'=>'Update Student', 'url'=>array('update', 'id'=>$model->id)),
 	array('label'=>'Delete Student', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),

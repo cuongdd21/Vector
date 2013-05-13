@@ -8,7 +8,6 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Staff', 'url'=>array('index')),
 	array('label'=>'Create Staff', 'url'=>array('create')),
 );
 

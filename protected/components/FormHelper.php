@@ -53,8 +53,9 @@ function getTermList()
 
 function getStaffList()
 {
-    
-    $staffs = Staff::model()->findAll();
+     $criteria = new CDbCriteria();
+    $criteria->compare('term_id',Term::model()->getLatest()->id);
+    $staffs = Staff::model()->findAll($criteria);
     $list = CHtml::listData($staffs, 'id', function ($student)
     {
         return CHtml::encode($student->id . ' ' . $student->name); });

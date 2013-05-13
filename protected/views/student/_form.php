@@ -39,7 +39,7 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'gender'); ?>
-		<?php echo $form->textField($model,'gender'); ?>
+		<?php echo $form->dropDownList($model,'gender',getGenderList()); ?>
 		<?php echo $form->error($model,'gender'); ?>
 	</div>
 

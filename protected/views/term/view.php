@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Term', 'url'=>array('index')),
+
 	array('label'=>'Create Term', 'url'=>array('create')),
 	array('label'=>'Update Term', 'url'=>array('update', 'id'=>$model->id)),
 	array('label'=>'Delete Term', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),

@@ -113,10 +113,11 @@ function getSessionAvailable($day, $slot)
     for ($i = 0; $i < count($sessions); $i++) {
         if ($sessions[$i]->slot == $slot) {
             return $sessions[$i];
-        } else
-            return null;
+        } 
+            
 
     }
+    return null;
 
 }
 
