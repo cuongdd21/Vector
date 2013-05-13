@@ -6711,3 +6711,1742 @@ in C:\xampp181\htdocs\Vector\index.php (13)
 in C:\xampp181\htdocs\Vector\protected\views\student\admin.php (90)
 in C:\xampp181\htdocs\Vector\protected\controllers\StudentController.php (152)
 in C:\xampp181\htdocs\Vector\index.php (13)
+2013/05/13 08:58:24 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:25 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:25 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:25 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:25 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:25 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:26 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:26 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:26 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:26 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:26 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:26 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:26 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:26 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:30 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:33 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:33 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:33 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:33 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:33 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:33 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:33 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:34 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:36 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:36 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:47 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:47 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:47 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:47 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:47 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:47 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:47 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:47 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:48 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:50 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:50 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:50 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:50 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:50 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:50 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:50 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:50 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:51 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:59 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:59 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:59 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:59 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:59 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:59 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:58:59 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:01 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:02 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:02 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:02 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:02 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:02 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:02 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:02 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:02 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_payslip`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_day`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_lesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_paygrade`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_price`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_session`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_staff`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_studentlesson`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_week`
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 08:59:03 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:13 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:13 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:13 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:13 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (203)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:13 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (203)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_payslip`
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (203)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_payslip`
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (203)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\models\Term.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.db.ar.CActiveRecord] Payslip.findAll()
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (231)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_payslip` `t` WHERE staff_id =15 ORDER BY date_end DESC
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (231)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (281)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:00:14 [error] [exception.CException] exception 'CException' with message 'ManageController cannot find the requested view "managePayslip".' in C:\xampp\htdocs\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('managePayslip', Array, true)
+#1 C:\xampp\htdocs\Vector\protected\controllers\ManageController.php(281): CController->render('managePayslip', Array)
+#2 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): ManageController->actionManagePayslip()
+#3 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('managePayslip')
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('manage/managePa...')
+#8 C:\xampp\htdocs\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Vector\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/vector/index.php/manage/managePayslip?staff_id=15
+HTTP_REFERER=http://localhost/vector/index.php/Staff/admin
+---
+2013/05/13 09:00:14 [trace] [system.CModule] Loading "errorHandler" application component
+2013/05/13 09:04:00 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:00 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:00 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:00 [trace] [system.web.filters.CFilterChain] Running filter StaffController.filteraccessControl()
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:00 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:00 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:00 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:00 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_staff`
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_staff`
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (65)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+2013/05/13 09:04:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (65)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+2013/05/13 09:04:01 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (65)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+2013/05/13 09:04:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (65)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+2013/05/13 09:04:01 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (14)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\_search.php (12)
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (41)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+2013/05/13 09:04:01 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (106)
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (46)
+2013/05/13 09:04:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (106)
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (46)
+2013/05/13 09:04:01 [trace] [system.db.ar.CActiveRecord] Staff.count()
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `vt_staff` `t` WHERE term_id=:ycp0
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.db.ar.CActiveRecord] Staff.findAll()
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_staff` `t` WHERE term_id=:ycp0 LIMIT 10
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:01 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:07 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:07 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:07 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:07 [trace] [system.web.filters.CFilterChain] Running filter StudentController.filteraccessControl()
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:07 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:07 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:07 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:07 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (14)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\student\_search.php (12)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (39)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:08 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:08 [trace] [system.db.ar.CActiveRecord] Student.count()
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `vt_student` `t` WHERE term_id=:ycp0
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.ar.CActiveRecord] Student.findAll()
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_student` `t` WHERE term_id=:ycp0 LIMIT 10
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_studentlesson`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_studentlesson`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:14 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:14 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:14 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:14 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:14 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+2013/05/13 09:04:14 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+2013/05/13 09:04:14 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (54)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+2013/05/13 09:04:14 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:16 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:16 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:16 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:16 [trace] [system.web.filters.CFilterChain] Running filter StudentController.filteraccessControl()
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:16 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:16 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:16 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:16 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (14)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\student\_search.php (12)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (39)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:17 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:17 [trace] [system.db.ar.CActiveRecord] Student.count()
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `vt_student` `t` WHERE term_id=:ycp0
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.ar.CActiveRecord] Student.findAll()
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_student` `t` WHERE term_id=:ycp0 LIMIT 10
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_studentlesson`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_studentlesson`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:20 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:20 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:20 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (142)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:20 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (142)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (142)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (142)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (16)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\protected\models\Student.php (28)
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+2013/05/13 09:04:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\protected\models\Student.php (28)
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+2013/05/13 09:04:21 [trace] [system.db.ar.CActiveRecord] Student.findByPk()
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_student` `t` WHERE `t`.`id`=28 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (67)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.db.ar.CActiveRecord] Invoice.count()
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (67)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `vt_invoice` `Invoice` LEFT JOIN vt_student ON Invoice.student_id=vt_student.id WHERE Invoice.student_id=28
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (67)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.db.ar.CActiveRecord] Invoice.findAll()
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (67)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT `Invoice`.`id`, `Invoice`.`number`, `Invoice`.`date_create`, `Invoice`.`status`, `Invoice`.`total`, `Invoice`.`student_id`, `Invoice`.`lesson_id`, `Invoice`.`common_id`, `Invoice`.`notes` FROM `vt_invoice` `Invoice` LEFT JOIN vt_student ON Invoice.student_id=vt_student.id WHERE Invoice.student_id=28 LIMIT 10
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (67)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (67)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (67)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\manageInvoice.php (67)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:21 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+2013/05/13 09:04:21 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (161)
+2013/05/13 09:04:23 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:23 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:23 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:23 [trace] [system.web.filters.CFilterChain] Running filter StudentController.filteraccessControl()
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:23 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:23 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:23 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:23 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (14)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\student\_search.php (12)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (39)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:24 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:04:24 [trace] [system.db.ar.CActiveRecord] Student.count()
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `vt_student` `t` WHERE term_id=:ycp0
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.ar.CActiveRecord] Student.findAll()
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_student` `t` WHERE term_id=:ycp0 LIMIT 10
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_studentlesson`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_studentlesson`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:33 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:33 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:33 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:33 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\models\Price.php (20)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (165)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\models\Price.php (20)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (165)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_price`
+in C:\xampp\htdocs\Vector\protected\models\Price.php (20)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (165)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_price`
+in C:\xampp\htdocs\Vector\protected\models\Price.php (20)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (165)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:34 [trace] [system.db.ar.CActiveRecord] Price.findAll()
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (165)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_price` `t`
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (165)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:34 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\managePrice.php (10)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (169)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (169)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:04:34 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (169)
+2013/05/13 09:04:34 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (169)
+2013/05/13 09:04:34 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (44)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (169)
+2013/05/13 09:04:34 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (169)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:40 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:40 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:40 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:40 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\models\Paygrade.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (193)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:40 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\models\Paygrade.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (193)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_paygrade`
+in C:\xampp\htdocs\Vector\protected\models\Paygrade.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (193)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_paygrade`
+in C:\xampp\htdocs\Vector\protected\models\Paygrade.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (193)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:41 [trace] [system.db.ar.CActiveRecord] Paygrade.findAll()
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (193)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_paygrade` `t`
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (193)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:41 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\managePaygrade.php (10)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (197)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (197)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:41 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (197)
+2013/05/13 09:14:41 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (197)
+2013/05/13 09:14:41 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (44)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (197)
+2013/05/13 09:14:41 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (197)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:50 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:50 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:50 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:50 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\models\Paygrade.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (201)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:50 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\models\Paygrade.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (201)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_paygrade`
+in C:\xampp\htdocs\Vector\protected\models\Paygrade.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (201)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_paygrade`
+in C:\xampp\htdocs\Vector\protected\models\Paygrade.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (201)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:51 [trace] [system.db.ar.CActiveRecord] Paygrade.findByPk()
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (201)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_paygrade` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (201)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\updatePayGrade.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:51 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\updatePayGrade.php (48)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:14:51 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+2013/05/13 09:14:51 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+2013/05/13 09:14:51 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (54)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (217)
+2013/05/13 09:16:16 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:16 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:16 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:16 [trace] [system.web.filters.CFilterChain] Running filter StudentController.filteraccessControl()
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:16 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:16 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:16 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:16 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (140)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (14)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\student\_search.php (12)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (39)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:16:17 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Student.php (102)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (44)
+2013/05/13 09:16:17 [trace] [system.db.ar.CActiveRecord] Student.count()
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `vt_student` `t` WHERE term_id=:ycp0
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.ar.CActiveRecord] Student.findAll()
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_student` `t` WHERE term_id=:ycp0 LIMIT 10
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_studentlesson`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_studentlesson`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_invoice`
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.lessons
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `lessons`.`id` AS `t1_c0`, `lessons`.`student_id` AS `t1_c1`, `lessons`.`lesson_id` AS `t1_c2` FROM `vt_studentlesson` `lessons`  WHERE (`lessons`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.ar.CActiveRecord] lazy loading Student.invoices
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `invoices`.`id` AS `t1_c0`, `invoices`.`number` AS `t1_c1`, `invoices`.`date_create` AS `t1_c2`, `invoices`.`status` AS `t1_c3`, `invoices`.`total` AS `t1_c4`, `invoices`.`student_id` AS `t1_c5`, `invoices`.`lesson_id` AS `t1_c6`, `invoices`.`common_id` AS `t1_c7`, `invoices`.`notes` AS `t1_c8` FROM `vt_invoice` `invoices`  WHERE (`invoices`.`student_id`=:ypl0)
+in C:\xampp\htdocs\Vector\protected\views\student\admin.php (90)
+in C:\xampp\htdocs\Vector\protected\controllers\StudentController.php (152)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (54)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (8)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:21 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:22 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:22 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:23 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\models\Term.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:23 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:23 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\manageCurrentTerm.php (15)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:23 [trace] [system.db.ar.CActiveRecord] Term.findAll()
+in C:\xampp\htdocs\Vector\protected\components\FormHelper.php (46)
+in C:\xampp\htdocs\Vector\protected\views\manage\manageCurrentTerm.php (24)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+2013/05/13 09:16:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t`
+in C:\xampp\htdocs\Vector\protected\components\FormHelper.php (46)
+in C:\xampp\htdocs\Vector\protected\views\manage\manageCurrentTerm.php (24)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+2013/05/13 09:16:23 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\manageCurrentTerm.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:23 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+2013/05/13 09:16:23 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (44)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+2013/05/13 09:16:25 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:25 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:25 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:25 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (73)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:25 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:25 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:26 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (78)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\manageCurrentTerm.php (15)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:26 [trace] [system.db.ar.CActiveRecord] Term.findAll()
+in C:\xampp\htdocs\Vector\protected\components\FormHelper.php (46)
+in C:\xampp\htdocs\Vector\protected\views\manage\manageCurrentTerm.php (24)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+2013/05/13 09:16:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t`
+in C:\xampp\htdocs\Vector\protected\components\FormHelper.php (46)
+in C:\xampp\htdocs\Vector\protected\views\manage\manageCurrentTerm.php (24)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+2013/05/13 09:16:26 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\manageCurrentTerm.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:26 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+2013/05/13 09:16:26 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (44)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (81)
+2013/05/13 09:16:28 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:28 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:28 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:28 [trace] [system.web.filters.CFilterChain] Running filter StaffController.filteraccessControl()
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:28 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:28 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:28 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:28 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_staff`
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_staff`
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (65)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+2013/05/13 09:16:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (65)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+2013/05/13 09:16:29 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (65)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+2013/05/13 09:16:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (65)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (137)
+2013/05/13 09:16:29 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (14)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\_search.php (12)
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (41)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+2013/05/13 09:16:29 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (106)
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (46)
+2013/05/13 09:16:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\models\Staff.php (106)
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (46)
+2013/05/13 09:16:30 [trace] [system.db.ar.CActiveRecord] Staff.count()
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `vt_staff` `t` WHERE term_id=:ycp0
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:30 [trace] [system.db.ar.CActiveRecord] Staff.findAll()
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_staff` `t` WHERE term_id=:ycp0 LIMIT 10
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:30 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:30 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:30 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\Vector\protected\views\staff\admin.php (76)
+in C:\xampp\htdocs\Vector\protected\controllers\StaffController.php (145)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:31 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:31 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:31 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:31 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (223)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:31 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (223)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_payslip`
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (223)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_payslip`
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (223)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (237)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_term`
+in C:\xampp\htdocs\Vector\protected\models\Term.php (36)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (237)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\Vector\protected\models\Term.php (21)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (237)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.ar.CActiveRecord] Term.findByPk()
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (237)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_term` `t` WHERE `t`.`id`=86 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\models\Term.php (29)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (237)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.ar.CActiveRecord] Payslip.findAll()
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (251)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_payslip` `t` WHERE staff_id =15 ORDER BY date_end DESC
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (251)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (16)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vt_student`
+in C:\xampp\htdocs\Vector\protected\models\Student.php (28)
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vt_student`
+in C:\xampp\htdocs\Vector\protected\models\Student.php (28)
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+2013/05/13 09:16:32 [trace] [system.db.ar.CActiveRecord] Student.findByPk()
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_student` `t` WHERE `t`.`id`=15 LIMIT 1
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (33)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (68)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.ar.CActiveRecord] Payslip.count()
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (68)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `vt_payslip` `t`
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (68)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.ar.CActiveRecord] Payslip.findAll()
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (68)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vt_payslip` `t` LIMIT 10
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (68)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (68)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (68)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\Vector\protected\views\manage\managePayslip.php (68)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)
+in C:\xampp\htdocs\Vector\index.php (13)
+2013/05/13 09:16:32 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\Vector\protected\views\layouts\main.php (36)
+in C:\xampp\htdocs\Vector\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\Vector\protected\controllers\ManageController.php (301)

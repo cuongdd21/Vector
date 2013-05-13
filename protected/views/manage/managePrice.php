@@ -22,6 +22,7 @@ $('.search-form form').submit(function(){
 ?>
 <?php 
 require_once( dirname(__FILE__) . '/../../components/ScheduleHelper.php');
+
 ?>
 <h1>Manage Price</h1>
 <?php 

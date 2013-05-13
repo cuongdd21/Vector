@@ -80,6 +80,7 @@ class LessonController extends Controller
                 $start_week = $_POST['Lesson']['start_week']-1;
                 $end_week = $_POST['Lesson']['end_week']-1;
                 $student_id = (String)$_POST['Lesson']['student_id'];
+                $total_week = $_POST['Lesson']['end_week'] - $_POST['Lesson']['start_week'] + 1;
             // check if ok to create sessions
             $term =Term::model()->getLatest();
               for($i=$start_week;$i<$end_week+1;$i++)
@@ -119,10 +120,16 @@ class LessonController extends Controller
                 $id=$model->id;
                 
                 // create invoice
-                $invoice->number = $student_id . '000000';
+                $lastInvoice = Invoice::model()->findAll(array('order'=>"id DESC",'limit'=>1));
+                if(!$lastInvoice)
+                    $latest_id = 0;
+                else
+                $latest_id = $lastInvoice[0]->id;
+                $invoice->number = 'S'.$student_id .'IN'.$latest_id;
                 $invoice->date_create = date('y-m-d h:m:s');
                 $invoice->status = 1;
-                $invoice->total = Price::model()->findByPk($priceId)->rate;
+                $pricerate = Price::model()->findByPk($priceId)->rate;
+                $invoice->total = $total_week * $pricerate;
                 $invoice->student_id = $student_id;
                 $invoice->save();
                 // create student lesson

@@ -38,6 +38,7 @@ $cs->registerCssFile($baseUrl . '/css/attendance.css');
         echo '<th>Lesson Count</th>';
         echo '</tr>';
         // echo content here
+        
         for ($i=0;$i<count($lesson->sessions);$i++)
         {
             $session = $lesson->sessions[$i];
@@ -67,3 +68,4 @@ $cs->registerCssFile($baseUrl . '/css/attendance.css');
     //END FOR ONE LESSON
     }
 ?>
+

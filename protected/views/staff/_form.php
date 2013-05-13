@@ -74,7 +74,7 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'paygrade_id'); ?>
-		<?php echo $form->textField($model,'paygrade_id'); ?>
+		<?php echo $form->dropDownList($model,'paygrade_id',getPayGradeList()); ?>
 		<?php echo $form->error($model,'paygrade_id'); ?>
 	</div>
 

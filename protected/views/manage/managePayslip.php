@@ -27,10 +27,10 @@ $('.search-form form').submit(function(){
 ");
 ?>
 <?php
-	if (!isset($_GET['student_id']))
-             throw new CHttpException('Need to provide student_id!');
+	if (!isset($_GET['staff_id']))
+             throw new CHttpException('Need to provide staff_id!');
 ?>
-<h1>Invoice of <?php echo Student::model()->findByPk($_GET['student_id'])->name;?></h1>
+<h1>Invoice of <?php echo Student::model()->findByPk($_GET['staff_id'])->name;?></h1>
 
 <p>
 You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
@@ -45,6 +45,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
     'id',
                 'number',
                 'date_create',
+                'grade',
 		array('name'=>'total','header'=>'Total amount'),
 		/*
 		'end_week',
@@ -58,10 +59,10 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'student_id',
 		'lesson_notes',
 		*/
-         array('header'=>'Print Invoice',
+         array('header'=>'Print Payslip',
         'class'=>'CLinkColumn',
         'label'=>'Print Now',
-        'urlExpression'=>'Yii::app()->createUrl("viewInvoice",array("student_id"=>$data->student_id,"invoice_id"=>$data->id))',
+        'urlExpression'=>'Yii::app()->createUrl("viewPayslip",array("staff_id"=>$data->staff_id,"payslip_id"=>$data->id))',
         ),
 	),
 )); ?>

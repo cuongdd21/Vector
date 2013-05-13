@@ -133,6 +133,7 @@ class StaffController extends Controller
 	 */
 	public function actionAdmin()
 	{
+
 		$model=new Staff('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Staff']))
@@ -140,6 +141,7 @@ class StaffController extends Controller
 
 		$this->render('admin',array(
 			'model'=>$model,
+                      
 		));
 	}
 

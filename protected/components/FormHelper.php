@@ -48,8 +48,8 @@ function getTermList()
     return $list;
     //<?php echo $form->dropDownList($model,'requester_id',$model->project->getUserOptions());
     //
-
 }
+
 
 function getStaffList()
 {
@@ -111,6 +111,11 @@ function getDayList()
 
 }
 
-
+function getPayGradeList()
+{
+    $paygrade = PayGrade::model()->findAll();
+    $list = CHtml::listData($paygrade, 'id', 'name');
+    return $list;
+}
 
 ?>

@@ -65,6 +65,8 @@ class Staff extends CActiveRecord
         $term_id = Term::model()->getLatest()->id;
 		return array(
                 'lessons' => array(self::HAS_MANY, 'Lesson', 'staff_id','on'=>'lessons.term_id='.$term_id),
+                 'paygrade' => array(self::BELONGS_TO, 'Paygrade', 'paygrade_id'), 
+               'payslips' => array(self::HAS_MANY, 'Payslip', 'staff_id'),        
 		);
 	}
 
