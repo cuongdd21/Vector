@@ -1,4 +1,3 @@
-
 <?php
 $baseUrl = Yii::app()->baseUrl;
 $cs = Yii::app()->getClientScript();
@@ -10,7 +9,6 @@ $cs->registerCssFile($baseUrl . '/css/schedule.css');
 
 $this->breadcrumbs = array('Schedule', );
 ?>
-<p>
 <?php
 require_once( dirname(__FILE__) . '/../../components/ScheduleHelper.php');
 if (isset($_GET['week']))
@@ -671,5 +669,4 @@ Week:
 ?>
             </div>
         </div>      
-</p>
 

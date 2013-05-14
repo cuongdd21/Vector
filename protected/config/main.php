@@ -21,7 +21,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
 	),
-
+        'timeZone'=>'Australia/Melbourne',
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		

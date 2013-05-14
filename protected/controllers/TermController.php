@@ -185,10 +185,18 @@ class TermController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Term');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+            $message = null;
+            if (isset($_POST['term'])) {
+                Yii::app()->session['current_term'] = $_POST['term'];
+                echo ' Yii app session:' . Yii::app()->session['current_term'];
+                $message = "Save Successful!!!";
+            }
+
+            $term = Term::model()->getLatest();
+            echo ' Yii app session:' . Yii::app()->session['current_term'];
+            echo ' latest term id:' . $term->id;
+
+            $this->render('index', array('term' => $term->id, 'message' => $message));
 	}
 
 	/**

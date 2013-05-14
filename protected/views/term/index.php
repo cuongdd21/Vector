@@ -1,4 +1,11 @@
 <?php
+/* @var $this ManageController */
+require_once(dirname(__FILE__).'/../../components/FormHelper.php');
+$this->breadcrumbs=array(
+	'Manage',
+);
+?>
+<?php
 /* @var $this TermController */
 /* @var $dataProvider CActiveDataProvider */
 
@@ -14,7 +21,25 @@ $this->menu=array(
 
 <h1>Terms</h1>
 
-<?php $this->widget('zii.widgets.CListView', array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
+
+
+<div class="form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'manage-form',
+	'enableAjaxValidation'=>false,
 )); ?>
+<?php
+    echo $message;
+?>
+	<div class="row">
+		Current Term:
+		<?php echo CHtml::dropDownList('term',$term,getTermList()) ?>
+
+	</div>
+	<div class="row buttons">
+		<?php echo CHtml::submitButton('Save'); ?>
+	</div>
+<?php $this->endWidget(); ?>
+
+</div><!-- form -->

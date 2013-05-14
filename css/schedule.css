@@ -119,6 +119,11 @@ div.session
     width:101px;
     height:90px;
     border-right: 1px solid black;
+    text-decoration: none;
+}
+div.session a, div.session-last a
+{
+    text-decoration: none;
 }
 div.session-last
 {
@@ -146,6 +151,8 @@ div.session-slot-detail-top
     height:14px;
     border-bottom:1px solid black;
     font-size: 10px;
+    color: blue;
+    background-color: #F0F4FF;
 }
 div.session-slot-detail-bottom
 {
@@ -153,4 +160,8 @@ div.session-slot-detail-bottom
     width: 101px;
     height:14px;
     font-size:10px;
+    color: black;
+    text-decoration: none;
+    background-color: #F0F4FF;
+  
 }
