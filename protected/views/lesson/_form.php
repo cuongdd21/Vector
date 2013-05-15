@@ -35,7 +35,11 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 		<?php echo $form->dropDownList($model,'day',getDayList()); ?>
 		<?php echo $form->error($model,'day'); ?>
 	</div>
-
+	<div class="row">
+        <?php echo CHtml::link('Slot List','#',array('class'=>'search-button')); ?>
+            <div class="search-form" style="display:none">
+            <?php $this->renderPartial('/manage/manageSlot'); ?>
+	</div>
 	<div class="row">
 		<?php echo $form->labelEx($model,'slot'); ?>
 		<?php echo $form->dropDownList($model,'slot',getSlotListFull()); ?>
@@ -73,29 +77,6 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 		<?php echo $form->error($model,'group'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'type'); ?>
-		<?php echo $form->textField($model,'type'); ?>
-		<?php echo $form->error($model,'type'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'status'); ?>
-		<?php echo $form->textField($model,'status'); ?>
-		<?php echo $form->error($model,'status'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'total'); ?>
-		<?php echo $form->textField($model,'total'); ?>
-		<?php echo $form->error($model,'total'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'subject_id'); ?>
-		<?php echo $form->textField($model,'subject_id'); ?>
-		<?php echo $form->error($model,'subject_id'); ?>
-	</div>
         <div class="row">
         <?php echo CHtml::label('Package','');?>
         <?php echo CHtml::dropDownList('pricePackage', 'P', 

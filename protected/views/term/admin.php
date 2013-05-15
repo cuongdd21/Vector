@@ -8,7 +8,6 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Term', 'url'=>array('index')),
 	array('label'=>'Create Term', 'url'=>array('create')),
 );
 

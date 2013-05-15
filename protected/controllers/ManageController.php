@@ -22,6 +22,12 @@ class ManageController extends Controller
     {
         $this->render('index');
     }
+    public function actionManageSlot()
+    {
+        $this->render('manageSlot');
+        
+    }
+    
     public function actionManageStaffAttendance()
     {
         $message = '';

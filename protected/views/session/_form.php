@@ -46,21 +46,16 @@ require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
 
 
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'classroom_id'); ?>
-		<?php echo $form->textField($model,'classroom_id'); ?>
-		<?php echo $form->error($model,'classroom_id'); ?>
-	</div>
+
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'day_id'); ?>
-		<?php echo $form->textField($model,'day_id'); ?>
-		<?php echo $form->error($model,'day_id'); ?>
+        <?php echo CHtml::link('Slot List','#',array('class'=>'search-button')); ?>
+            <div class="search-form" style="display:none">
+            <?php $this->renderPartial('/manage/manageSlot'); ?>
 	</div>
-
 	<div class="row">
 		<?php echo $form->labelEx($model,'slot'); ?>
-		<?php echo $form->dropDownList($model,'slot',getSlotList($model)); ?>
+		<?php echo $form->dropDownList($model,'slot',getSlotListFull()); ?>
 		<?php echo $form->error($model,'slot'); ?>
 	</div>
 
