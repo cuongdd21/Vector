@@ -27,7 +27,7 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'display_name'); ?>
-		<?php echo $form->textArea($model,'display_name',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textField($model,'display_name',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'display_name'); ?>
 	</div>
 

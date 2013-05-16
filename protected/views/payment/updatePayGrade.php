@@ -10,7 +10,10 @@
 /* @var $model Staff */
 /* @var $form CActiveForm */
 require_once(dirname(__FILE__).'/../../components/FormHelper.php');
-
+$this->menu=array(
+	array('label'=>'manage Price', 'url'=>array('/payment/managePrice')),
+	array('label'=>'Manage PayGrade', 'url'=>array('/payment/managePaygrade')),
+);
 ?>
 
 <div class="form">

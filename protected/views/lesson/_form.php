@@ -24,12 +24,16 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 <?php
 	$model->term_id = Term::model()->getLatest()->id;
 ?>
-	<div class="row">
+	<div class="row" style="display:none">
 		<?php echo $form->labelEx($model,'term_id'); ?>
 		<?php echo $form->dropDownList($model,'term_id',getTermList()); ?>
 		<?php echo $form->error($model,'term_id'); ?>
 	</div>
-
+	<div class="row" style="display:none">
+		<?php echo $form->labelEx($model,'student_id'); ?>
+		<?php echo $form->dropDownList($model,'student_id',getStudentList()); ?>
+		<?php echo $form->error($model,'student_id'); ?>
+	</div>
 	<div class="row">
 		<?php echo $form->labelEx($model,'day'); ?>
 		<?php echo $form->dropDownList($model,'day',getDayList()); ?>
@@ -40,6 +44,7 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
             <div class="search-form" style="display:none">
             <?php $this->renderPartial('/manage/manageSlot'); ?>
 	</div>
+        </div>
 	<div class="row">
 		<?php echo $form->labelEx($model,'slot'); ?>
 		<?php echo $form->dropDownList($model,'slot',getSlotListFull()); ?>
@@ -60,23 +65,6 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 		<?php echo $form->dropDownList($model,'end_week',getWeekList()); ?>
 		<?php echo $form->error($model,'end_week'); ?>
 	</div>
-
-	<div class="row">
-
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'name'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'group'); ?>
-		<?php echo $form->dropDownList($model,'group',getYesNo()); ?>
-		<?php echo $form->error($model,'group'); ?>
-	</div>
-
         <div class="row">
         <?php echo CHtml::label('Package','');?>
         <?php echo CHtml::dropDownList('pricePackage', 'P', 
@@ -102,17 +90,6 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
             )); ?>
 	</div>
         </div>
-	<div class="row">
-		<?php echo $form->labelEx($model,'student_id'); ?>
-		<?php echo $form->dropDownList($model,'student_id',getStudentList()); ?>
-		<?php echo $form->error($model,'student_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'lesson_notes'); ?>
-		<?php echo $form->textArea($model,'lesson_notes',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'lesson_notes'); ?>
-	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

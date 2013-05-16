@@ -1,7 +1,6 @@
 <?php
-require_once(dirname(__FILE__)."/../components/SessionHelper.php");
 
-class SessionController extends Controller
+class FeedbackController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -63,18 +62,17 @@ class SessionController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Session;
+		$model=new Feedback;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Session']))
+		if(isset($_POST['Feedback']))
 		{
-
-          //$week = Week::model()->
-			$model->attributes=$_POST['Session'];
+			$model->attributes=$_POST['Feedback'];
+                        $model->date_create= date('y-m-d h:m:s');
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('index'));
 		}
 
 		$this->render('create',array(
@@ -94,28 +92,13 @@ class SessionController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Session']))
+		if(isset($_POST['Feedback']))
 		{
-		  $week_new = $_POST['weeklist'];
-          $day_new = $_POST['daylist'];
-          $day_new_model = Term::model()->getLatest()->weeks[$week_new-1]->days[$day_new-1];
-          $day_new_id = $day_new_model->id;
-          // neu nhu ko co gi thay doi
-          if (($model->day_id!=$day_new_model->id)||($model->slot!=$_POST['Session']['slot']))
- 
-          {
-          if (checkSessionSlot($day_new_model,$_POST['Session']['slot'])===true)
-          {
-          throw new CHttpException('The Session is already occupied and not available!');
-          }
-          }
-			$model->attributes=$_POST['Session'];
-             $model->day_id=$day_new_id;
-      
+			$model->attributes=$_POST['Feedback'];
 			if($model->save())
-				$this->redirect(array('schedule/display','week'=>$week_new));
+				$this->redirect(array('view','id'=>$model->id));
 		}
-                
+
 		$this->render('update',array(
 			'model'=>$model,
 		));
@@ -140,7 +123,11 @@ class SessionController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Session');
+		$dataProvider=new CActiveDataProvider('Feedback',array(
+			'pagination'=>array(
+				'pageSize'=>20,
+			),
+                    ));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -151,10 +138,10 @@ class SessionController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Session('search');
+		$model=new Feedback('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Session']))
-			$model->attributes=$_GET['Session'];
+		if(isset($_GET['Feedback']))
+			$model->attributes=$_GET['Feedback'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -165,12 +152,12 @@ class SessionController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Session the loaded model
+	 * @return Feedback the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Session::model()->findByPk($id);
+		$model=Feedback::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -178,11 +165,11 @@ class SessionController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Session $model the model to be validated
+	 * @param Feedback $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='session-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='feedback-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

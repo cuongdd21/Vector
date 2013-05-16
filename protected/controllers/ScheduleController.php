@@ -2,6 +2,8 @@
 
 class ScheduleController extends Controller
 {
+    	public $layout='//layouts/vtColumn2';
+    
     	public function filters()
 	{
 		return array(

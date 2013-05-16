@@ -27,10 +27,6 @@ $('.search-form form').submit(function(){
 
 <h1>Manage Students</h1>
 
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
 
 <?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
@@ -44,35 +40,36 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id',
 		'name',
+                'email',
 		'contact',
-		'email',
-                array(
-                        'header' => 'Lesson',
-                        'value' => 'count($data->lessons)',  //and it works for me. It's important to put the ''s out
-                ),
+
         array('header'=>'Lesson',
         'class'=>'CLinkColumn',
         'label'=>'create',
         'urlExpression'=>'Yii::app()->createUrl("lesson/create",array("student_id"=>$data->id))',
         ),
-                array('header'=>'Lesson',
+                array('header'=>'View Lesson',
         'class'=>'CLinkColumn',
         'label'=>'view',
         'urlExpression'=>'Yii::app()->createUrl("lesson/admin",array("student_id"=>$data->id))',
         )
-        ,                array('header'=>'Attendance',
+        ,  
+                 array(
+                        'header' => 'Total lessons',
+                        'value' => 'count($data->lessons)',  //and it works for me. It's important to put the ''s out
+                ),           
+            array('header'=>'Attendance',
         'class'=>'CLinkColumn',
         'label'=>'view',
         'urlExpression'=>'Yii::app()->createUrl("manage/manageStudentAttendance",array("student_id"=>$data->id))',
         )
         ,
         array(
-                        'header' => 'NumberOfInvoice',
+                        'header' => 'Invoice',
                         'value' => 'count($data->invoices)',  //and it works for me. It's important to put the ''s out
                 ),
-                     array('header'=>'Invoice',
+                     array('header'=>'View Invoice',
         'class'=>'CLinkColumn',
         'label'=>'view',
         'urlExpression'=>'Yii::app()->createUrl("manage/manageInvoice",array("student_id"=>$data->id,))',

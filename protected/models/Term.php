@@ -82,7 +82,7 @@ class Term extends CActiveRecord
     public function attributeLabels()
     {
         return array(
-            'id' => 'ID',
+            'id' => 'Term number',
             'start_time' => 'Start Time',
             );
     }

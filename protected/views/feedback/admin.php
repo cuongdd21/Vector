@@ -1,15 +1,15 @@
 <?php
-/* @var $this TermController */
-/* @var $model Term */
+/* @var $this FeedbackController */
+/* @var $model Feedback */
 
 $this->breadcrumbs=array(
-	'Terms'=>array('index'),
+	'Feedbacks'=>array('index'),
 	'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'Create Term', 'url'=>array('create')),
-        array('label'=>'Change Term', 'url'=>array('index')),
+	array('label'=>'List Feedback', 'url'=>array('index')),
+	array('label'=>'Create Feedback', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -18,7 +18,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$('#term-grid').yiiGridView('update', {
+	$('#feedback-grid').yiiGridView('update', {
 		data: $(this).serialize()
 	});
 	return false;
@@ -26,7 +26,12 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Terms</h1>
+<h1>Manage Feedbacks</h1>
+
+<p>
+You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
+or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
+</p>
 
 <?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
@@ -36,12 +41,14 @@ $('.search-form form').submit(function(){
 </div><!-- search-form -->
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'term-grid',
+	'id'=>'feedback-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
 		'id',
-		'start_time',
+		'author',
+		'content',
+		'date_create',
 		array(
 			'class'=>'CButtonColumn',
 		),

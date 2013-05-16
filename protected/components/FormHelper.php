@@ -90,7 +90,12 @@ function getGenderList()
 function getTermList()
 {
     $terms = Term::model()->findAll();
-    $list = CHtml::listData($terms, 'id', 'start_time');
+    $list = CHtml::listData($terms, 'id', function ($terms)
+    {
+        $item = $terms->start_time;
+        $string = explode(' ', $item);
+        return CHtml::encode($string[0]);
+        });
     return $list;
     //<?php echo $form->dropDownList($model,'requester_id',$model->project->getUserOptions());
     //
@@ -118,7 +123,7 @@ function getStudentList()
     $students = Student::model()->findAll($criteria);
     $list = CHtml::listData($students, 'id', function ($student)
     {
-        return CHtml::encode($student->id . ' ' . $student->name); }
+        return CHtml::encode($student->name); }
     );
     return $list;
     //<?php echo $form->dropDownList($model,'requester_id',$model->project->getUserOptions());
@@ -159,7 +164,7 @@ function getDayList()
 
 function getPayGradeList()
 {
-    $paygrade = PayGrade::model()->findAll();
+    $paygrade = Paygrade::model()->findAll();
     $list = CHtml::listData($paygrade, 'id', 'name');
     return $list;
 }

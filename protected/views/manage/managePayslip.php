@@ -32,10 +32,6 @@ $('.search-form form').submit(function(){
 ?>
 <h1>Invoice of <?php echo Student::model()->findByPk($_GET['staff_id'])->name;?></h1>
 
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'lesson-grid',
@@ -62,7 +58,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
          array('header'=>'Print Payslip',
         'class'=>'CLinkColumn',
         'label'=>'Print Now',
-        'urlExpression'=>'Yii::app()->createUrl("manage/viewPayslip",array("staff_id"=>$data->staff_id,"payslip_id"=>$data->id))',
+        'urlExpression'=>'Yii::app()->createUrl("/payment/viewPayslip",array("staff_id"=>$data->staff_id,"payslip_id"=>$data->id))',
         ),
 	),
 )); ?>

@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Term', 'url'=>array('index')),
+	array('label'=>'Change Term', 'url'=>array('index')),
 	array('label'=>'Manage Term', 'url'=>array('admin')),
 );
 ?>

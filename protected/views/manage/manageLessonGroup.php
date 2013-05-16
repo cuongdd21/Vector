@@ -17,7 +17,7 @@ require_once(dirname(__FILE__).'/../ModelDisplayHelper.php');
 
 
 <?php
-    echo $message;
+
     $student = 1;
     
 ?>
@@ -71,9 +71,12 @@ require_once(dirname(__FILE__).'/../ModelDisplayHelper.php');
 
 	<div class="row buttons">
     <?php
-	echo CHtml::link('Go Back',array('student/admin'));
-?>
-		<?php echo CHtml::submitButton('Save'); ?>
+        
+        if (!$message)
+        echo CHtml::submitButton('Save');
+        else echo $message;
+        ?>
+          
 	</div>
 
 <?php $this->endWidget(); ?>
