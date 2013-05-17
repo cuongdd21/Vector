@@ -98,13 +98,25 @@ class SessionController extends Controller
 		{
 		  $week_new = $_POST['weeklist'];
           $day_new = $_POST['daylist'];
+          $room_new = $_POST['roomlist'];
+          $time_new = $_POST['timelist'];
+          if ($day_new <=5)
+          {
+            $_POST['Session']['slot']=($time_new-6)*5 + $room_new;
+          }
+          else
+          {
+            $_POST['Session']['slot']=($time_new-1)*5 + $room_new;
+          }
+          // tinh toan $_SESSION slot
           $day_new_model = Term::model()->getLatest()->weeks[$week_new-1]->days[$day_new-1];
           $day_new_id = $day_new_model->id;
           // neu nhu ko co gi thay doi
           if (($model->day_id!=$day_new_model->id)||($model->slot!=$_POST['Session']['slot']))
  
           {
-          if (checkSessionSlot($day_new_model,$_POST['Session']['slot'])===true)
+
+          if (checkSessionSlot($day_new_model,$_POST['Session']['slot'])==true)
           {
           throw new CHttpException('The Session is already occupied and not available!');
           }

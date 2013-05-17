@@ -10,7 +10,7 @@
         {
             for ($i=0;$i<count($sessions);$i++)
             {
-                if ($sessions[$i]->slot===$slot)
+                if ($sessions[$i]->slot==$slot)
                 return true;
             }
         }

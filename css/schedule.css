@@ -7,14 +7,14 @@ div.day
 {
 
  width:917px;
- height:110px;
+ height:170px;
  border:1px solid black;
  border-bottom:none;
 }
 div.day-last
 {
  width:917px;
- height:110px;
+ height:170px;
  border:1px solid black;
 }
 div.day-info
@@ -22,7 +22,7 @@ div.day-info
 font-size: 9px;
 float:left;
 width:100px;
-height:110px;
+height:170px;
 border-right:1px solid black;
 }
 div.day-info-date
@@ -31,26 +31,26 @@ text-align:center;
 font-size: 12px;
 float:left;
 width:36px;
-height:60px;
+height:90px;
 border-right:1px solid black;
-padding-top: 50px;
+padding-top: 80px;
 }
 div.day-info-day
 {
 font-size: 12px;
 float:left;
 width:36px;
-height:60px;
+height:90px;
 border-right:1px solid black;
 text-align:center;
-padding-top:50px;
+padding-top:80px;
 }
 div.day-info-room
 {
 font-size: 9px;
 float:left;
 width:26px;
-height:110px;
+height:170px;
 border-right:none;
 }
 div.day-info-room-space
@@ -89,6 +89,26 @@ font-size: 9px;
 float:left;
 width:26px;
 height:24px;
+border-bottom:1px solid black;
+}
+div.day-info-room-r4
+{
+    padding-top:5px;    
+    text-align:center;
+font-size: 9px;
+float:left;
+width:26px;
+height:24px;
+border-bottom:1px solid black;
+}
+div.day-info-room-r5
+{
+    padding-top:5px;    
+    text-align:center;
+font-size: 9px;
+float:left;
+width:26px;
+height:24px;
 border-bottom:none;
 }
 div.day-time
@@ -117,7 +137,7 @@ div.session
 {
     float:left;
     width:101px;
-    height:90px;
+    height:150px;
     border-right: 1px solid black;
     text-decoration: none;
 }

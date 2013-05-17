@@ -9,10 +9,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Session', 'url'=>array('index')),
-	array('label'=>'Create Session', 'url'=>array('create')),
-	array('label'=>'View Session', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Session', 'url'=>array('admin')),
+
 );
 ?>
 

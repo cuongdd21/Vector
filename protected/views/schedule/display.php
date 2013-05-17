@@ -10,38 +10,95 @@ $cs->registerCssFile($baseUrl . '/css/schedule.css');
 $this->breadcrumbs = array('Schedule', );
 ?>
 <?php
-require_once( dirname(__FILE__) . '/../../components/ScheduleHelper.php');
-if (isset($_GET['week']))
-{
-$current_week = $_GET['week']-1;
-}
-else
-{
-$date1 = $term->start_time;
-$date2 = 'NOW';
-$ts1 = strtotime($date1);
-$ts2 = strtotime($date2);
-$seconds_diff = $ts2 - $ts1;
-$days=floor($seconds_diff/3600/24);
-    $current_week=floor($days/7);
+require_once (dirname(__file__) . '/../../components/ScheduleHelper.php');
+if (isset($_GET['week'])) {
+    $current_week = $_GET['week'] - 1;
+} else {
+    $date1 = $term->start_time;
+    $date2 = 'NOW';
+    $ts1 = strtotime($date1);
+    $ts2 = strtotime($date2);
+    $seconds_diff = $ts2 - $ts1;
+    $days = floor($seconds_diff / 3600 / 24);
+    $current_week = floor($days / 7);
 
 }
-$week=$term->weeks[$current_week];
+$week = $term->weeks[$current_week];
 
 
 ?>
 <div style="text-align:center;">
 Week:
-	<?php if($current_week==0) {echo '<b>';} echo CHtml::link("1",array('schedule/display/week/1')); if($current_week==0) {echo '</b>';}?>
-    <?php if($current_week==1) {echo '<b>';} echo CHtml::link("2",array('schedule/display/week/2')); if($current_week==1) {echo '</b>';}?>
-    <?php if($current_week==2) {echo '<b>';} echo CHtml::link("3",array('schedule/display/week/3')); if($current_week==2) {echo '</b>';}?>
-    <?php if($current_week==3) {echo '<b>';} echo CHtml::link("4",array('schedule/display/week/4')); if($current_week==3) {echo '</b>';}?>
-    <?php if($current_week==4) {echo '<b>';} echo CHtml::link("5",array('schedule/display/week/5')); if($current_week==4) {echo '</b>';}?>
-    <?php if($current_week==5) {echo '<b>';} echo CHtml::link("6",array('schedule/display/week/6')); if($current_week==5) {echo '</b>';}?>
-    <?php if($current_week==6) {echo '<b>';} echo CHtml::link("7",array('schedule/display/week/7')); if($current_week==6) {echo '</b>';}?>
-    <?php if($current_week==7) {echo '<b>';} echo CHtml::link("8",array('schedule/display/week/8')); if($current_week==7) {echo '</b>';}?>
-    <?php if($current_week==8) {echo '<b>';} echo CHtml::link("9",array('schedule/display/week/9')); if($current_week==8) {echo '</b>';}?>
-    <?php if($current_week==9) {echo '<b>';} echo CHtml::link("10",array('schedule/display/week/10')); if($current_week==9) {echo '</b>';}?>
+	<?php if ($current_week == 0) {
+    echo '<b>';
+}
+echo CHtml::link("1", array('schedule/display/week/1'));
+if ($current_week == 0) {
+    echo '</b>';
+} ?>
+    <?php if ($current_week == 1) {
+    echo '<b>';
+}
+echo CHtml::link("2", array('schedule/display/week/2'));
+if ($current_week == 1) {
+    echo '</b>';
+} ?>
+    <?php if ($current_week == 2) {
+    echo '<b>';
+}
+echo CHtml::link("3", array('schedule/display/week/3'));
+if ($current_week == 2) {
+    echo '</b>';
+} ?>
+    <?php if ($current_week == 3) {
+    echo '<b>';
+}
+echo CHtml::link("4", array('schedule/display/week/4'));
+if ($current_week == 3) {
+    echo '</b>';
+} ?>
+    <?php if ($current_week == 4) {
+    echo '<b>';
+}
+echo CHtml::link("5", array('schedule/display/week/5'));
+if ($current_week == 4) {
+    echo '</b>';
+} ?>
+    <?php if ($current_week == 5) {
+    echo '<b>';
+}
+echo CHtml::link("6", array('schedule/display/week/6'));
+if ($current_week == 5) {
+    echo '</b>';
+} ?>
+    <?php if ($current_week == 6) {
+    echo '<b>';
+}
+echo CHtml::link("7", array('schedule/display/week/7'));
+if ($current_week == 6) {
+    echo '</b>';
+} ?>
+    <?php if ($current_week == 7) {
+    echo '<b>';
+}
+echo CHtml::link("8", array('schedule/display/week/8'));
+if ($current_week == 7) {
+    echo '</b>';
+} ?>
+    <?php if ($current_week == 8) {
+    echo '<b>';
+}
+echo CHtml::link("9", array('schedule/display/week/9'));
+if ($current_week == 8) {
+    echo '</b>';
+} ?>
+    <?php if ($current_week == 9) {
+    echo '<b>';
+}
+echo CHtml::link("10", array('schedule/display/week/10'));
+if ($current_week == 9) {
+    echo '</b>';
+} ?>
     
 </div>
 <p></p>
@@ -51,8 +108,8 @@ Week:
             <div class='day-info'>
             <div class='day-info-date'>
            <?php
-	       echo date_format(new DateTime($week->days[0]->date),"d/m");
-            ?>
+echo date_format(new DateTime($week->days[0]->date), "d/m");
+?>
             </div>
             <div class='day-info-day'>
             MON
@@ -69,6 +126,12 @@ Week:
                 <div class='day-info-room-r3'>
                 R3
                 </div>
+                <div class='day-info-room-r4'>
+                R4
+                </div>
+                <div class='day-info-room-r5'>
+                R5
+                </div>
             </div>
             </div>
             
@@ -135,7 +198,7 @@ Week:
                 <div class='session'>
                 </div>
 <?php
-    echo printSessionWeekday($term->weeks[$current_week]->days[0]->sessions);
+echo printSessionWeekday($term->weeks[$current_week]->days[0]->sessions);
 ?>
             </div>
         </div>
@@ -144,8 +207,8 @@ Week:
             <div class='day-info'>
                         <div class='day-info-date'>
                                    <?php
-	       echo date_format(new DateTime($week->days[1]->date),"d/m");
-            ?>
+echo date_format(new DateTime($week->days[1]->date), "d/m");
+?>
             </div>
             <div class='day-info-day'>
             TUE
@@ -162,6 +225,12 @@ Week:
                 <div class='day-info-room-r3'>
                 R3
                 </div>
+                                <div class='day-info-room-r4'>
+                R4
+                </div>
+                <div class='day-info-room-r5'>
+                R5
+                </div>
             </div>
 
             </div>
@@ -227,7 +296,7 @@ Week:
                 <div class='session'>
                 </div>
 <?php
-    echo printSessionWeekday($term->weeks[$current_week]->days[1]->sessions);
+echo printSessionWeekday($term->weeks[$current_week]->days[1]->sessions);
 ?>
             </div>
         </div>
@@ -236,8 +305,8 @@ Week:
             <div class='day-info'>
                         <div class='day-info-date'>
                                    <?php
-	       echo date_format(new DateTime($week->days[2]->date),"d/m");
-            ?>
+echo date_format(new DateTime($week->days[2]->date), "d/m");
+?>
             </div>
             <div class='day-info-day'>
             WED
@@ -254,6 +323,12 @@ Week:
                 <div class='day-info-room-r3'>
                 R3
                 </div>
+                                <div class='day-info-room-r4'>
+                R4
+                </div>
+                <div class='day-info-room-r5'>
+                R5
+                </div>
             </div>
 
             </div>
@@ -319,7 +394,7 @@ Week:
                 <div class='session'>
                 </div>
 <?php
-    echo printSessionWeekday($term->weeks[$current_week]->days[2]->sessions);
+echo printSessionWeekday($term->weeks[$current_week]->days[2]->sessions);
 ?>
             </div>
         </div>    
@@ -328,8 +403,8 @@ Week:
             <div class='day-info'>
                         <div class='day-info-date'>
                                    <?php
-	       echo date_format(new DateTime($week->days[3]->date),"d/m");
-            ?>
+echo date_format(new DateTime($week->days[3]->date), "d/m");
+?>
             </div>
             <div class='day-info-day'>
             THU
@@ -346,6 +421,12 @@ Week:
                 <div class='day-info-room-r3'>
                 R3
                 </div>
+                                <div class='day-info-room-r4'>
+                R4
+                </div>
+                <div class='day-info-room-r5'>
+                R5
+                </div>
             </div>
 
             </div>
@@ -411,7 +492,7 @@ Week:
                 <div class='session'>
                 </div>
 <?php
-    echo printSessionWeekday($term->weeks[$current_week]->days[3]->sessions);
+echo printSessionWeekday($term->weeks[$current_week]->days[3]->sessions);
 ?>
             </div>
         </div>    
@@ -420,8 +501,8 @@ Week:
             <div class='day-info'>
                         <div class='day-info-date'>
                                    <?php
-	       echo date_format(new DateTime($week->days[4]->date),"d/m");
-            ?>
+echo date_format(new DateTime($week->days[4]->date), "d/m");
+?>
             </div>
             <div class='day-info-day'>
             FRI
@@ -438,6 +519,12 @@ Week:
                 <div class='day-info-room-r3'>
                 R3
                 </div>
+                                <div class='day-info-room-r4'>
+                R4
+                </div>
+                <div class='day-info-room-r5'>
+                R5
+                </div>
             </div>
 
             </div>
@@ -503,7 +590,7 @@ Week:
                 <div class='session'>
                 </div>
 <?php
-    echo printSessionWeekday($term->weeks[$current_week]->days[4]->sessions);
+echo printSessionWeekday($term->weeks[$current_week]->days[4]->sessions);
 ?>
             </div>
         </div>   
@@ -512,8 +599,8 @@ Week:
             <div class='day-info'>
                         <div class='day-info-date'>
                                    <?php
-	       echo date_format(new DateTime($week->days[5]->date),"d/m");
-            ?>
+echo date_format(new DateTime($week->days[5]->date), "d/m");
+?>
             </div>
             <div class='day-info-day'>
             SAR
@@ -529,6 +616,12 @@ Week:
                 </div>
                 <div class='day-info-room-r3'>
                 R3
+                </div>
+                                <div class='day-info-room-r4'>
+                R4
+                </div>
+                <div class='day-info-room-r5'>
+                R5
                 </div>
             </div>
 
@@ -584,7 +677,7 @@ Week:
                 </div>        
             </div>
 <?php
-    echo printSessionWeekend($term->weeks[$current_week]->days[5]->sessions);
+echo printSessionWeekend($term->weeks[$current_week]->days[5]->sessions);
 ?>
         </div>   
  <!--DAY-->
@@ -592,8 +685,8 @@ Week:
             <div class='day-info'>
                         <div class='day-info-date'>
                                    <?php
-	       echo date_format(new DateTime($week->days[6]->date),"d/m");
-            ?>
+echo date_format(new DateTime($week->days[6]->date), "d/m");
+?>
             </div>
             <div class='day-info-day'>
             SUN
@@ -609,6 +702,12 @@ Week:
                 </div>
                 <div class='day-info-room-r3'>
                 R3
+                </div>
+                                <div class='day-info-room-r4'>
+                R4
+                </div>
+                <div class='day-info-room-r5'>
+                R5
                 </div>
             </div>
 
@@ -665,7 +764,7 @@ Week:
             </div>
             <div class='day-content'>
                 <?php
-    echo printSessionWeekend($term->weeks[$current_week]->days[6]->sessions);
+echo printSessionWeekend($term->weeks[$current_week]->days[6]->sessions);
 ?>
             </div>
         </div>      

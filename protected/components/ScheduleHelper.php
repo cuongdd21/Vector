@@ -134,6 +134,12 @@ function printSessionWeekday($sessions)
         100,
         100,
         100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
         100);
     for ($i = 0; $i < count($sessions); $i++) {
         $a[$sessions[$i]->slot] = $i;
@@ -147,18 +153,18 @@ function printSessionWeekday($sessions)
         } else {
             $html = $html . "<div class='session'>";
         }
-        for ($j = 1; $j <= 3; $j++) {
-            $t = ($i - 1) * 3 + $j;
+        for ($j = 1; $j <= 5; $j++) {
+            $t = ($i - 1) * 5 + $j;
             if ($a[$t] == 100) // neu nhu khong co gi
                 {
-                if ($j == 3) {
+                if ($j == 5) {
                     $html = $html . "<div class='session-slot-last'></div>";
                 } else {
                     $html = $html . "<div class='session-slot'></div>";
                 }
             } else // neu nhu co gi do
             {
-                if ($j == 3) {
+                if ($j == 5) {
                     $html_plus = "<div class='session-slot-last'><div class='sesion-slot-detail'><div class='session-slot-detail-top'>" .
                         getSessionStaffDisplay($sessions[$a[$t]]) .
                         "</div><div class='session-slot-detail-bottom'>" . getSessionStudentsDisplay($sessions[$a[$t]]) .
@@ -209,7 +215,24 @@ function printSessionWeekend($sessions)
         100,
         100,
         100,
-        100);
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+        );
     for ($i = 0; $i < count($sessions); $i++) {
         $a[$sessions[$i]->slot] = $i;
         // a tuong ung voi session tuong ung.
@@ -222,19 +245,19 @@ function printSessionWeekend($sessions)
         } else {
             $html = $html . "<div class='session'>";
         }
-        for ($j = 1; $j <= 3; $j++) {
-            $t = ($i - 1) * 3 + $j;
+        for ($j = 1; $j <= 5; $j++) {
+            $t = ($i - 1) * 5 + $j;
 
             if ($a[$t] == 100) // neu nhu khong co gi
                 {
-                if ($j == 3) {
+                if ($j == 5) {
                     $html = $html . "<div class='session-slot-last'></div>";
                 } else {
                     $html = $html . "<div class='session-slot'></div>";
                 }
             } else // neu nhu co gi do
             {
-                if ($j == 3) {
+                if ($j == 5) {
                     $html_plus = "<div class='session-slot-last'><div class='sesion-slot-detail'><div class='session-slot-detail-top'>" .
                         getSessionStaffDisplay($sessions[$a[$t]]) .
                         "</div><div class='session-slot-detail-bottom'>" . getSessionStudentsDisplay($sessions[$a[$t]]) .

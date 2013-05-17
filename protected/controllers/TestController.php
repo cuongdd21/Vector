@@ -15,7 +15,25 @@ class TestController extends Controller
 	public function actionIndex()
 	{
 	 
-               echo 'aa';
+              $slot =15;
+              $slot =$slot-1;
+              $temp = floor($slot/5);
+switch ($temp) {
+    case 0:
+        $time = '16:00';
+        break;
+    case 1:
+        $time = '17:30';
+        break;
+    case 2:
+        $time = '19:00';
+        break;
+}
+$room = $slot-$temp*5+1;
+              
+          
+              echo 'room='.$room;
+              echo 'time='.$time;
                break;
 //unset
 	}

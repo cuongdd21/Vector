@@ -26,7 +26,13 @@ require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
      echo CHtml::dropDownList('weeklist', $week_new,getWeekList());
      echo CHtml::dropDownList('daylist', $day_new,getDayList());  
      
+     // print the slot info
 
+     $rt = getRoomTime($model);
+          $room_new = $rt['room'];
+     $time_new = $rt['time'];
+     echo CHtml::dropDownList('roomlist', $room_new,getRoomList());
+     echo CHtml::dropDownList('timelist', $time_new,getTimeList());  
 
 
 ?>
@@ -48,16 +54,7 @@ require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
 
 
 
-	<div class="row">
-        <?php echo CHtml::link('Slot List','#',array('class'=>'search-button')); ?>
-            <div class="search-form" style="display:none">
-            <?php $this->renderPartial('/manage/manageSlot'); ?>
-	</div>
-	<div class="row">
-		<?php echo $form->labelEx($model,'slot'); ?>
-		<?php echo $form->dropDownList($model,'slot',getSlotListFull()); ?>
-		<?php echo $form->error($model,'slot'); ?>
-	</div>
+
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'session_notes'); ?>

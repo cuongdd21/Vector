@@ -1,4 +1,67 @@
 <?php
+function getRoomTime($session)
+{
+    $a = array();
+    $day = Day::model()->findByPk($session->day_id);
+  
+    $slot = $session->slot;
+    if ($day->day_no<=5)
+    {
+      
+        //weekday
+                   
+              $slot2 =$slot-1;
+              $temp = floor($slot2/5);
+switch ($temp) {
+    case 0:
+        $a['time'] = 6;
+        break;
+    case 1:
+        $a['time'] = 7;
+        break;
+    case 2:
+        $a['time'] = 8;
+        break;
+}
+
+$a['room'] = $slot2-$temp*5+1;
+    }
+    else
+    {
+        echo 'b';die;
+               $slot2 =$slot-1;
+              $temp = floor($slot2/5);
+switch ($temp) {
+    case 0:
+        $a['time'] = 1;
+        break;
+    case 1:
+        $a['time'] = 2;
+        break;
+    case 2:
+        $a['time'] = 3;
+        break;
+    case 3:
+        $a['time'] = 4;
+        break;
+    case 4:
+        $a['time'] = 5;
+        break;
+    case 5:
+        $a['time'] = 6;
+        break;
+    case 6:
+        $a['time'] = 7;
+        break;
+    case 7:
+        $a['time'] = 8;
+        break;
+}
+$a['room'] = $slot2-$temp*5+1;
+    // weekend
+    }
+    return $a;
+}
 function getYesNo()
 {
     return array(0 => 'No', 1 => 'Yes');
@@ -147,6 +210,7 @@ function getWeekList()
     //
 
 }
+
 function getDayList()
 {
     return array(
@@ -157,6 +221,34 @@ function getDayList()
         5 => "Friday",
         6 => "Sartuday",
         7 => "Sunday");
+    //<?php echo $form->dropDownList($model,'requester_id',$model->project->getUserOptions());
+    //
+
+}
+function getRoomList()
+{
+    return array(
+        1 => "Room 1",
+        2 => "Room 2",
+        3 => "Room 3",
+        4 => "Room 4",
+        5 => "Room 5",
+        );
+    //<?php echo $form->dropDownList($model,'requester_id',$model->project->getUserOptions());
+    //
+
+}
+function getTimeList()
+{
+    return array(
+        1 => "08:30",
+        2 => "10:00",
+        3 => "11:30",
+        4 => "13:00",
+        5 => "14:30",
+        6 => "16:00",
+        7 => "17:30",
+        8 => "19:00");
     //<?php echo $form->dropDownList($model,'requester_id',$model->project->getUserOptions());
     //
 
