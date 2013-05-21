@@ -34,7 +34,7 @@
              array('label'=>'Term', 'url'=>array('/Term/admin')),                          
             array('label'=>'Student', 'url'=>array('/Student/admin')),
             array('label'=>'Staff', 'url'=>array('/Staff/admin')),
-            array('label'=>'Payment', 'url'=>array('/Payment')),
+            array('label'=>'Payment', 'url'=>array('/manage/index')),
                          
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),	

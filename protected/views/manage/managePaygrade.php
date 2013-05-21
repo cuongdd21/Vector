@@ -6,7 +6,10 @@ $this->breadcrumbs=array(
 	'Prices'=>array('index'),
 	'Manage',
 );
-
+$this->menu=array(
+	array('label'=>'manage Price', 'url'=>array('/manage/managePrice')),
+	array('label'=>'Manage PayGrade', 'url'=>array('/manage/managePaygrade')),
+);
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
 	$('.search-form').toggle();

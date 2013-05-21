@@ -43,5 +43,6 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
+</div>
 
 <?php $this->endWidget(); ?>

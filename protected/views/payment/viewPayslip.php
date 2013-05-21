@@ -2,12 +2,15 @@
 require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
 $baseUrl = Yii::app()->request->baseUrl;
 $cs = Yii::app()->getClientScript();
+$cs->registerScriptFile($baseUrl.'/js/jquery-1.3.2.min.js');
+$cs->registerScriptFile($baseUrl.'/js/example.js');
 $cs->registerCssFile($baseUrl.'/css/payslip.css');
-
 ?>
+
 <?php
 $current_date = new DateTime();
 ?>
+
 <div id="page-wrap">
 <div id="header">
     <h2>PAYSLIP</h2>
@@ -98,4 +101,5 @@ $current_date = new DateTime();
 		  <h5>NOTE</h5>
 		  <p>The payslip has already included the GPS, use it as bank cheque, good luck</p>
 		</div>
-</div>               
+</div>
+	

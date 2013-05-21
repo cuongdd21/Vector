@@ -1,6 +1,12 @@
-
 <?php
-	
-    
-    echo CHtml::link('Manage Current Term', array('manage/manageCurrentTerm'));
+/* @var $this LessonController */
+/* @var $dataProvider CActiveDataProvider */
+
+
+$this->menu=array(
+	array('label'=>'manage Price', 'url'=>array('managePrice')),
+	array('label'=>'Manage PayGrade', 'url'=>array('managePaygrade')),
+);
 ?>
+
+<h1>Manage Payment</h1>

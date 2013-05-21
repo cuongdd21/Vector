@@ -8,8 +8,8 @@
 
 
 $this->menu=array(
-	array('label'=>'manage Price', 'url'=>array('/payment/managePrice')),
-	array('label'=>'Manage PayGrade', 'url'=>array('/payment/managePaygrade')),
+	array('label'=>'manage Price', 'url'=>array('/manage/managePrice')),
+	array('label'=>'Manage PayGrade', 'url'=>array('/manage/managePaygrade')),
 );
 ?>
 <h1>Update Price <?php echo $model->id; ?></h1>
@@ -43,5 +43,6 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
+</div>
 
 <?php $this->endWidget(); ?>

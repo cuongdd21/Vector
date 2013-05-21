@@ -30,7 +30,7 @@ $('.search-form form').submit(function(){
 	if (!isset($_GET['staff_id']))
              throw new CHttpException('Need to provide staff_id!');
 ?>
-<h1>Invoice of <?php echo Student::model()->findByPk($_GET['staff_id'])->name;?></h1>
+<h1>Invoice of <?php echo Staff::model()->findByPk($_GET['staff_id'])->name;?></h1>
 
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(

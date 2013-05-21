@@ -3,7 +3,8 @@ require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
 $baseUrl = Yii::app()->request->baseUrl;
 $cs = Yii::app()->getClientScript();
 $cs->registerScriptFile($baseUrl.'/js/jquery-1.3.2.min.js');
-$cs->registerCssFile($baseUrl.'/js/example.js');
+$cs->registerScriptFile($baseUrl.'/js/example.js');
+$cs->registerCssFile($baseUrl.'/css/payslip.css');
 ?>
 
 <?php
@@ -85,13 +86,13 @@ $current_date = new DateTime();
 
 		  <tr>
 		      <td colspan="2" class="blank"> </td>
-		      <td class="total-line">Subtotal</td>
+		      <td class="total-line">Subtotal ($) </td>
 		      <td class="total-value"><div id="subtotal"><?php echo $payslip->total; ?></div></td>
 		  </tr>
 		  <tr>
 
 		      <td colspan="2" class="blank"> </td>
-		      <td class="total-line">Total</td>
+		      <td class="total-line"> Total($) </td>
 		      <td class="total-value"><div id="total"><?php echo $payslip->total; ?></div></td>
 		  </tr>
 		</table>

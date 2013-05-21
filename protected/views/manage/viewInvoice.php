@@ -74,13 +74,13 @@ $current_date = new DateTime();
 
 		  <tr>
 		      <td colspan="2" class="blank"> </td>
-		      <td class="total-line">Subtotal</td>
+		      <td class="total-line">Subtotal($)</td>
 		      <td class="total-value"><div id="subtotal"><?php echo $invoice->total; ?></div></td>
 		  </tr>
 		  <tr>
 
 		      <td colspan="2" class="blank"> </td>
-		      <td class="total-line">Total</td>
+		      <td class="total-line">Total($)</td>
 		      <td class="total-value"><div id="total"><?php echo $invoice->total; ?></div></td>
 		  </tr>
 		</table>

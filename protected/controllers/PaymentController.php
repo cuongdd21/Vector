@@ -2,7 +2,7 @@
 require_once(dirname(__FILE__).'/../components/PaymentHelper.php');
 class PaymentController extends Controller
 {
-    	public $layout='//layouts/column2';
+    	public $layout='//layouts/vtColumn1';
         	public function filters()
 	{
 		return array(
