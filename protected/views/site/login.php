@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 	'Login',
 );
 ?>
-
+<div id='login-div' style="width:500px;margin:auto;text-align:center;">
 <h1>Login</h1>
 
 <p>Please fill out the following form with your login credentials:</p>
@@ -45,9 +45,17 @@ $this->breadcrumbs=array(
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
+	<div class="row buttons" style="margin:auto;">
+		<?php $this->widget('bootstrap.widgets.TbButton', array(
+    'type'=>'submit',
+    'buttonType'=>'submit',
+    'label'=>'Login',
+    'block'=>false,
+)); ?>
+        
+                
 	</div>
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->
+</div>

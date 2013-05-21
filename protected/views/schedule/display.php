@@ -1,6 +1,7 @@
 <?php
 $baseUrl = Yii::app()->baseUrl;
 $cs = Yii::app()->getClientScript();
+Yii::app()->bootstrap->register();
 $cs->registerCssFile($baseUrl . '/css/schedule.css');
 ?>
 <?php

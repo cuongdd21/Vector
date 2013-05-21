@@ -23,7 +23,7 @@
 <div class="container" id="page">
 
 	<div id="header">
-		<div id="logo"><?php echo CHtml::image(Yii::app()->request->baseUrl."/images/header4.jpg","ballpop"); ?></div>
+		<div id="logo"><div id="img-logo" style="text-align: center;"><?php echo CHtml::image(Yii::app()->request->baseUrl."/images/header4.jpg","ballpop"); ?></div></div>
 	</div><!-- header -->
 
 	<div id="mainmenu">

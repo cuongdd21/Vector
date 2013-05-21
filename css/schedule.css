@@ -1,11 +1,28 @@
 *
+
 {
+    
     margin:0;
     padding:0;
 }
+#header
+{
+    overflow:hidden;
+}
+#img-logo
+{
+     text-align:center;
+}
+
+#img-logo img
+{
+    vertical-align:middle;
+    
+    }
 div.day
 {
-
+    
+margin:auto;
  width:917px;
  height:170px;
  border:1px solid black;
@@ -13,6 +30,7 @@ div.day
 }
 div.day-last
 {
+    margin:auto;
  width:917px;
  height:170px;
  border:1px solid black;

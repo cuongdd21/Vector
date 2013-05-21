@@ -5,16 +5,18 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 
 return array(
 
-
+    
+    
 
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Vector Tutoring',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -40,6 +42,9 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+            'bootstrap'=>array(
+            'class'=>'bootstrap.components.Bootstrap',
+        ),
 		// uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
@@ -69,6 +74,7 @@ return array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),
+        
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
@@ -78,9 +84,9 @@ return array(
 				),
 				// uncomment the following to show log messages on web pages
 				
-				//array(
-				//	'class'=>'CWebLogRoute',
-				//),
+				array(
+					'class'=>'CWebLogRoute',
+				),
 				
 			),
 		),

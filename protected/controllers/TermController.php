@@ -193,8 +193,8 @@ class TermController extends Controller
             }
 
             $term = Term::model()->getLatest();
-            echo ' Yii app session:' . Yii::app()->session['current_term'];
-            echo ' latest term id:' . $term->id;
+            //echo ' Yii app session:' . Yii::app()->session['current_term'];
+            //echo ' latest term id:' . $term->id;
 
             $this->render('index', array('term' => $term->id, 'message' => $message));
 	}
