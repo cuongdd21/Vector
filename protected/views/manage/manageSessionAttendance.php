@@ -56,8 +56,15 @@
 	</div>
 
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Save'); ?>
+	<div class="row buttons" style="margin:auto;">
+		<?php $this->widget('bootstrap.widgets.TbButton', array(
+    'type'=>'submit',
+    'buttonType'=>'submit',
+    'label'=>'Save',
+    'block'=>false,
+)); ?>
+        
+                
 	</div>
 
 <?php $this->endWidget(); ?>

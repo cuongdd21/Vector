@@ -92,7 +92,24 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
         </div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+				<?php
+        $text=''; 
+        if($model->isNewRecord)
+        {
+            $text = 'Create';
+        }
+        else
+        {
+            $text='Save';
+        }
+        
+        ?>
+        		<?php $this->widget('bootstrap.widgets.TbButton', array(
+    'type'=>'submit',
+    'buttonType'=>'submit',
+    'label'=>$text,
+    'block'=>false,
+)); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -61,9 +61,15 @@ require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
 		<?php echo $form->textArea($model,'session_notes',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'session_notes'); ?>
 	</div>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+    	<div class="row buttons" style="margin:auto;">
+		<?php $this->widget('bootstrap.widgets.TbButton', array(
+    'type'=>'submit',
+    'buttonType'=>'submit',
+    'label'=>'Save',
+    'block'=>false,
+)); ?>
+        
+                
 	</div>
 
 <?php $this->endWidget(); ?>
