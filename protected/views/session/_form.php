@@ -68,9 +68,20 @@ require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
     'label'=>'Save',
     'block'=>false,
 )); ?>
+
         
+                <br/>
                 
+                <br/>
 	</div>
+    		<?php $this->widget('bootstrap.widgets.TbButton', array(
+            
+    'buttonType'=>'link',
+    'type'=>'danger',
+    'label'=>'Delete this Session',
+    'url'=>Yii::app()->createUrl('session/delete/',array('id'=>$model->id)),
+    'block'=>false,
+)); ?>
 
 <?php $this->endWidget(); ?>
 

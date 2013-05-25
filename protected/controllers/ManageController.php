@@ -19,6 +19,11 @@ class ManageController extends Controller
         );
     }
 
+    public function actionManageDisplayMessage()
+    {
+        $message = $_GET['message'];
+        $this->render('manageDisplayMessage',array('message'=>$message));
+    }
     public function actionIndex()
     {
         $this->render('index');
