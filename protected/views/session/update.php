@@ -1,7 +1,9 @@
 <?php
 /* @var $this SessionController */
 /* @var $model Session */
-
+$baseUrl = Yii::app()->baseUrl;
+$cs = Yii::app()->getClientScript();
+$cs->registerScriptFile($baseUrl.'/js/bootstrap-confirm.js'); 
 $this->breadcrumbs=array(
 	'Sessions'=>array('index'),
 	$model->id=>array('view','id'=>$model->id),

@@ -4,6 +4,9 @@
 /* @var $form CActiveForm */
 require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
+$baseUrl = Yii::app()->baseUrl;
+$cs = Yii::app()->getClientScript();
+$cs->registerScriptFile($baseUrl.'/js/bootstrap-confirm.js'); 
 ?>
 
 <div class="form">
@@ -13,26 +16,44 @@ require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
 	'enableAjaxValidation'=>false,
 )); ?>
 
+  		<?php echo '<br/>';  
+          $this->widget('bootstrap.widgets.TbButton', array(
+            
+    'buttonType'=>'link',
+    'type'=>'info',
+    'label'=>'Mark Attendance',
+    'url'=>Yii::app()->createUrl('manage/manageSessionAttendance',array('session_id'=>$model->id)),
+    'block'=>false,
+)); ?>
+    		<?php $this->widget('bootstrap.widgets.TbButton', array(
+            
+    'buttonType'=>'link',
+    'type'=>'danger',
+    'label'=>'Delete this Session',
+    'url'=>Yii::app()->createUrl('session/delete/',array('id'=>$model->id)),
+    'block'=>false,
+    'htmlOptions'=>array('id'=>'confirmButton','data-confirm'=>'This Session will be permenently deleted, Are you Sure?'),
+));   ?>
+
+<br/>
+
 <?php
-	echo CHtml::link('Mark Attendance',array('manage/manageSessionAttendance','session_id'=>$model->id));
-?>
-
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-<?php
-
+echo '<br/>';  
      $week_new = $model->day->week->week_no;
      $day_new = $model->day->day_no;
-     echo CHtml::dropDownList('weeklist', $week_new,getWeekList());
-     echo CHtml::dropDownList('daylist', $day_new,getDayList());  
+     echo '<b>Week:</b><br/>'.CHtml::dropDownList('weeklist', $week_new,getWeekList());
+     
+     echo '<br/><b>Day:</b></br/>'.CHtml::dropDownList('daylist', $day_new,getDayList());
+     
      
      // print the slot info
 
      $rt = getRoomTime($model);
           $room_new = $rt['room'];
      $time_new = $rt['time'];
-     echo CHtml::dropDownList('roomlist', $room_new,getRoomList());
-     echo CHtml::dropDownList('timelist', $time_new,getTimeList());  
+     echo '<br/><b>Room:</b><br/>'.CHtml::dropDownList('roomlist', $room_new,getRoomList());
+     
+     echo '<br/><b>Time:</b><br/>'.CHtml::dropDownList('timelist', $time_new,getTimeList());  
 
 
 ?>
@@ -74,14 +95,7 @@ require_once(dirname(__FILE__).'/../../components/ScheduleHelper.php');
                 
                 <br/>
 	</div>
-    		<?php $this->widget('bootstrap.widgets.TbButton', array(
-            
-    'buttonType'=>'link',
-    'type'=>'danger',
-    'label'=>'Delete this Session',
-    'url'=>Yii::app()->createUrl('session/delete/',array('id'=>$model->id)),
-    'block'=>false,
-)); ?>
+
 
 <?php $this->endWidget(); ?>
 

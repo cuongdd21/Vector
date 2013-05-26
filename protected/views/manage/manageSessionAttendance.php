@@ -7,7 +7,7 @@
     
     
     
-  echo '<b>Mark Attendance</b>'
+  echo '<h2>Mark Attendance</h2>'
  ?>   
     <div class="form">
 

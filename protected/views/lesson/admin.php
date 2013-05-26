@@ -75,8 +75,11 @@ $('.search-form form').submit(function(){
         'label'=>'enroll more',
         'urlExpression'=>'Yii::app()->createUrl("manage/manageLessonGroup",array("lesson_id"=>$data->id))',
         ),
-		array(
-			'class'=>'CButtonColumn',
-		),
+         array('header'=>'Lesson',
+        'class'=>'CLinkColumn',
+        'label'=>'Delete this lesson',
+        'urlExpression'=>'Yii::app()->createUrl("manage/manageLessonGroup",array("lesson_id"=>$data->id))',
+        ),
+		
 	),
 )); ?>

@@ -1,6 +1,8 @@
 <?php /* @var $this Controller */ ?>
 <?php $this->beginContent('//layouts/main');
-Yii::app()->bootstrap->register(); ?>
+Yii::app()->bootstrap->register();
+Yii::app()->clientScript->registerCoreScript('jquery'); 
+Yii::app()->clientScript->registerCoreScript('jquery.ui'); ?>
 <div class="span-19">
 	<div id="content">
 		<?php echo $content; ?>
