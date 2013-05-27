@@ -9,6 +9,5 @@ $this->menu=array(
 );
 ?>
 
-<h1>Manage Payment</h1>
 
 
