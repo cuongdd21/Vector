@@ -12,10 +12,6 @@
 	<meta name="language" content="en" />
 
 	<!-- blueprint CSS framework -->
-
-
-
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>

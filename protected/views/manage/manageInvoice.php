@@ -56,8 +56,13 @@ $('.search-form form').submit(function(){
 		*/
          array('header'=>'Print Invoice',
         'class'=>'CLinkColumn',
-        'label'=>'Print Now',
+        'label'=>'Preview',
         'urlExpression'=>'Yii::app()->createUrl("payment/viewInvoice",array("student_id"=>$data->student_id,"invoice_id"=>$data->id))',
         ),
+         array('header'=>'Print Invoice',
+        'class'=>'CLinkColumn',
+        'label'=>'Print Now',
+        'urlExpression'=>'Yii::app()->createUrl("payment/printInvoice",array("student_id"=>$data->student_id,"invoice_id"=>$data->id))',
+        ),            
 	),
 )); ?>

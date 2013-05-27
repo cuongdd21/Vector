@@ -218,7 +218,82 @@ class PaymentController extends Controller
                         'lesson'=>$lesson,
                       //  'sessions'=>$totalsession,
 		));
-	}    
+	}
+   public function actionPrintPayslip($staff_id, $payslip_id)
+	{
+            	$payslip = Payslip::model()->findByPk($payslip_id);
+                $staff = Staff::model()->findByPk($staff_id);
+                $totalsession = $payslip->total / Paygrade::model()->findByPk($staff->paygrade_id)->session;
+		if($payslip===null)
+			throw new CHttpException(404,'The requested page does not exist.');
+                /*
+                $html2pdf = Yii::app()->ePdf->HTML2PDF();
+                $html2pdf->WriteHTML($this->render('viewPayslip',array(
+			'payslip'=>$payslip,
+                        'staff'=>$staff,
+                        'sessions'=>$totalsession,
+		), true));
+                $html2pdf->Output();	
+                 * 
+                 */	
+                        # mPDF
+        $mPDF1 = Yii::app()->ePdf->mpdf();
+ 
+        # render (full page)
+        $mPDF1->WriteHTML($this->render('index', array(), true));
+ 
+        # Load a stylesheet
+        $stylesheet = file_get_contents(Yii::getPathOfAlias('webroot.css') . '/payslip.css');
+        $mPDF1->WriteHTML($stylesheet, 1);
+ 
+        # renderPartial (only 'view' of current controller)
+        $mPDF1->WriteHTML($this->render('viewPayslip',array(
+			'payslip'=>$payslip,
+                        'staff'=>$staff,
+                        'sessions'=>$totalsession,
+		), true));
+ 
+ 
+        # Outputs ready PDF
+        $mPDF1->Output();
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+		
+	}  
+        public function actionPrintInvoice($student_id, $invoice_id)
+	{
+            	$invoice = Invoice::model()->findByPk($invoice_id);        
+                $student = Student::model()->findByPk($student_id);
+                $lesson = Lesson::model()->findByPk($invoice->lesson_id);
+              //  $totalsession = $payslip->total / Paygrade::model()->findByPk($staff->paygrade_id)->session;
+		//if($payslip===null)
+		//	throw new CHttpException(404,'The requested page does not exist.');
+		//
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+                        # mPDF
+        $mPDF1 = Yii::app()->ePdf->mpdf();
+ 
+        # render (full page)
+        $mPDF1->WriteHTML($this->render('index', array(), true));
+ 
+        # Load a stylesheet
+        $stylesheet = file_get_contents(Yii::getPathOfAlias('webroot.css') . '/payslip.css');
+        $mPDF1->WriteHTML($stylesheet, 1);
+ 
+        # renderPartial (only 'view' of current controller)
+        $mPDF1->WriteHTML(		$this->render('viewInvoice',array(
+			'invoice'=>$invoice,
+                        'student'=>$student,
+                        'lesson'=>$lesson,
+                      //  'sessions'=>$totalsession,
+		),true));
+ 
+ 
+        # Outputs ready PDF
+        $mPDF1->Output();                
+
+	}        
     // Uncomment the following methods and override them if needed
     /*
     public function filters()

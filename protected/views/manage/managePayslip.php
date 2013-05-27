@@ -57,8 +57,13 @@ $('.search-form form').submit(function(){
 		*/
          array('header'=>'Print Payslip',
         'class'=>'CLinkColumn',
-        'label'=>'Print Now',
+        'label'=>'Preview',
         'urlExpression'=>'Yii::app()->createUrl("/payment/viewPayslip",array("staff_id"=>$data->staff_id,"payslip_id"=>$data->id))',
         ),
+        array('header'=>'Print Payslip',
+        'class'=>'CLinkColumn',
+        'label'=>'Print Now',
+        'urlExpression'=>'Yii::app()->createUrl("/payment/printPayslip",array("staff_id"=>$data->staff_id,"payslip_id"=>$data->id))',
+        ),            
 	),
 )); ?>
