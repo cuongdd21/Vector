@@ -9,7 +9,9 @@ $cs->registerCssFile($baseUrl . '/css/schedule.css');
 /* @var $this ScheduleController */
 
 $this->breadcrumbs = array('Schedule', );
+
 ?>
+
 <?php
 require_once (dirname(__file__) . '/../../components/ScheduleHelper.php');
 if (isset($_GET['week'])) {

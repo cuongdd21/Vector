@@ -140,7 +140,12 @@ class LessonController extends Controller
                 // create student lesson
                 $studentlesson = New Studentlesson;
                 $studentlesson->student_id = $student_id_int;
-                $studentlesson->lesson_id = $id;
+                $lastLesson = Lesson::model()->findAll(array('order'=>"id DESC",'limit'=>1));
+                if(!$lastLesson)
+                    $latest_id = 0;
+                else
+                $latest_id = $lastLesson[0]->id;
+                $studentlesson->lesson_id = $latest_id;
                 if (!($studentlesson->save()))
                 {
                      throw new CHttpException('Unable to create Lesson and Student relationship!');
@@ -205,7 +210,7 @@ class LessonController extends Controller
                 
                 
                 
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('/schedule/display'));
                 }
 		}
 

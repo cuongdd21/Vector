@@ -29,7 +29,7 @@
 <div class="container" id="page">
 
 	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo"><div id="img-logo" style="text-align: center;"><?php echo CHtml::image(Yii::app()->request->baseUrl."/images/header4.jpg","ballpop"); ?></div></div>
 	</div><!-- header -->
 
 	<?php echo $content; ?>

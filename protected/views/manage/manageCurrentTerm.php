@@ -15,9 +15,7 @@ $this->breadcrumbs=array(
 )); ?>
 
 
-<?php
-    echo $message;
-?>
+
 
 	<div class="row">
 		Current Term:
@@ -29,7 +27,9 @@ $this->breadcrumbs=array(
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Save'); ?>
 	</div>
-
+<?php
+    echo "<p style ='color:red;'> $message </p>";
+?>
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->

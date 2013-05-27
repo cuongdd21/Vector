@@ -98,13 +98,14 @@ $message = null;
         $message = null;
         if (isset($_POST['term'])) {
             Yii::app()->session['current_term'] = $_POST['term'];
-            echo ' Yii app session:' . Yii::app()->session['current_term'];
-            $message = "Save Successful!!!";
+          //  echo ' Yii app session:' . Yii::app()->session['current_term'];
+            $current_term = Yii::app()->session['current_term'];
+            $message = "$current_term has been selected";
         }
 
         $term = Term::model()->getLatest();
-        echo ' Yii app session:' . Yii::app()->session['current_term'];
-        echo ' latest term id:' . $term->id;
+       // echo ' Yii app session:' . Yii::app()->session['current_term'];
+       // echo ' latest term id:' . $term->id;
         $this->render('manageCurrentTerm', array('term' => $term->id, 'message' => $message));
     }
    	public function actionManageLessonGroup()

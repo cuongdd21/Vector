@@ -57,7 +57,7 @@ $('.search-form form').submit(function(){
          array('header'=>'Print Invoice',
         'class'=>'CLinkColumn',
         'label'=>'Print Now',
-        'urlExpression'=>'Yii::app()->createUrl("manage/viewInvoice",array("student_id"=>$data->student_id,"invoice_id"=>$data->id))',
+        'urlExpression'=>'Yii::app()->createUrl("payment/viewInvoice",array("student_id"=>$data->student_id,"invoice_id"=>$data->id))',
         ),
 	),
 )); ?>

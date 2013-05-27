@@ -4,7 +4,7 @@
  * purpose: main layout for main area section
  */
 ?>
-<?php $this->beginContent('//layouts/main'); ?>
+<?php $this->beginContent('//layouts/mainLogin'); ?>
 
 <div id="content">
 	<?php echo $content; ?>

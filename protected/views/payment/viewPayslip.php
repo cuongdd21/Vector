@@ -72,27 +72,27 @@ $current_date = new DateTime();
 		
 		  <tr>
 		      <th>Type</th>
-		      <th>Description</th>
+		      <th>Duration</th>
 		      <th>Sessions</th>
 		      <th>Total($)</th>
 		  </tr>
 		  
 		  <tr class="item-row">
-		      <td>UnKnown</td>
-		      <td>MTH</td>
+		      <td>Regular Payment</td>
+		      <td>fortnight </td>
                       <td><?php echo $sessions; ?> </td>
 		      <td><?php echo $payslip->total; ?> </td>
 		  </tr>
 
 		  <tr>
 		      <td colspan="2" class="blank"> </td>
-		      <td class="total-line">Subtotal</td>
+		      <td class="total-line">Subtotal ($) </td>
 		      <td class="total-value"><div id="subtotal"><?php echo $payslip->total; ?></div></td>
 		  </tr>
 		  <tr>
 
 		      <td colspan="2" class="blank"> </td>
-		      <td class="total-line">Total</td>
+		      <td class="total-line"> Total($) </td>
 		      <td class="total-value"><div id="total"><?php echo $payslip->total; ?></div></td>
 		  </tr>
 		</table>

@@ -5,6 +5,7 @@ class SiteController extends Controller
 	/**
 	 * Declares class-based actions.
 	 */
+        public $layout='//layouts/vtColumn2';
 	public function actions()
 	{
 		return array(
@@ -123,6 +124,6 @@ class SiteController extends Controller
 	public function actionLogout()
 	{
 		Yii::app()->user->logout();
-		$this->redirect(Yii::app()->homeUrl);
+		$this->redirect(array('/site/index'));
 	}
 }

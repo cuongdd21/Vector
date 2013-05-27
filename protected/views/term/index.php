@@ -29,9 +29,7 @@ $this->menu=array(
 	'id'=>'manage-form',
 	'enableAjaxValidation'=>false,
 )); ?>
-<?php
-    echo $message;
-?>
+
 	<div class="row">
 		Current Term:
 		<?php echo CHtml::dropDownList('term',$term,getTermList()) ?>
@@ -45,6 +43,9 @@ $this->menu=array(
     'block'=>false,
 )); ?>
 	</div>
+    <?php
+    echo "<p style='color:green';>$message</p>";
+?>
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->

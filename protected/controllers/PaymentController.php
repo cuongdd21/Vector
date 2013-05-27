@@ -203,8 +203,9 @@ class PaymentController extends Controller
 	}
         public function actionViewInvoice($student_id, $invoice_id)
 	{
-            	$invoice = Invoice::model()->findByPk($invoice_id);
+            	$invoice = Invoice::model()->findByPk($invoice_id);        
                 $student = Student::model()->findByPk($student_id);
+                $lesson = Lesson::model()->findByPk($invoice->lesson_id);
               //  $totalsession = $payslip->total / Paygrade::model()->findByPk($staff->paygrade_id)->session;
 		//if($payslip===null)
 		//	throw new CHttpException(404,'The requested page does not exist.');
@@ -214,6 +215,7 @@ class PaymentController extends Controller
 		$this->render('viewInvoice',array(
 			'invoice'=>$invoice,
                         'student'=>$student,
+                        'lesson'=>$lesson,
                       //  'sessions'=>$totalsession,
 		));
 	}    

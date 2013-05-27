@@ -187,11 +187,11 @@ class TermController extends Controller
 	{
             $message = null;
             if (isset($_POST['term'])) {
-                Yii::app()->session['current_term'] = $_POST['term'];
-                echo ' Yii app session:' . Yii::app()->session['current_term'];
-                $message = "Save Successful!!!";
+            Yii::app()->session['current_term'] = $_POST['term'];
+          //  echo ' Yii app session:' . Yii::app()->session['current_term'];
+            $current_term = Yii::app()->session['current_term'];
+            $message = "Term number : $current_term has been selected";
             }
-
             $term = Term::model()->getLatest();
             //echo ' Yii app session:' . Yii::app()->session['current_term'];
             //echo ' latest term id:' . $term->id;
