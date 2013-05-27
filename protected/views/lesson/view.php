@@ -32,6 +32,7 @@ $this->menu=array(
 		'type',
 		'status',
 		'total',
+                'subject',
 		'subject_id',
 		'price_id',
 		'student_id',

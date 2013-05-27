@@ -35,7 +35,7 @@ $cs->registerCssFile($baseUrl . '/css/attendance.css');
         echo '<th>Time</th>';
         echo '<th>Subject</th>';
         echo '<th>Tutor</th>';
-        echo '<th>Lesson Count</th>';
+        echo '<th>Attendance</th>';
         echo '</tr>';
         // echo content here
         for ($i=0;$i<count($lesson->sessions);$i++)

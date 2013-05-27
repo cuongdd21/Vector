@@ -107,63 +107,100 @@ $message = null;
         echo ' latest term id:' . $term->id;
         $this->render('manageCurrentTerm', array('term' => $term->id, 'message' => $message));
     }
-    public function actionManageLessonGroup()
-    {
-        //$data = lesson tuong ung
-        $message = null;
-        if (isset($_GET['lesson_id'])) {
+   	public function actionManageLessonGroup()
+	   {
+	       //$data = lesson tuong ung
+	        $message = null;
+	       if (isset($_GET['lesson_id']) && isset($_GET['student']))
+           {
             $data = Lesson::model()->findByPk($_GET['lesson_id']);
-        }
-
-
-        if (isset($_POST['student'])) {
+            }
+            
+            $lesson_id = $_GET['lesson_id'];
+            $old_student_id = $_GET['student'];
+	       if (isset($_POST['student']))
+           {
             // check if the student already enroll for that lesson
             {
-                for ($i = 0; $i < count($data->students); $i++) {
-                    if ($data->students[$i]->student_id == $_POST['student']) {
-
-                        throw new CHttpException('The student already enrolled in the lesson!');
-                    }
-                }
+                for($i=0;$i<count($data->students);$i++)
+                {
+            if ($data->students[$i]->student_id==$_POST['student'])
+            {
+                
+                throw new CHttpException('The student '.$_POST['student'].'already enrolled in the lesson!');
             }
-
-
-            if (count($data->students) >= 4) {
+            }
+            }
+            
+            
+            if (count($data->students)>=4)
+            {
                 throw new CHttpException('The maximum students in the lesson is 4 !');
             }
             // save student lesson
             $s = new Studentlesson;
             $s->student_id = $_POST['student'];
             $s->lesson_id = $data->id;
-            if (!($s->save())) {
+            // save invoice
+                $in = Invoice::model()->findByAttributes(
+                array('student_id'=>$old_student_id));
+                $price_id = $data->price_id;             
+                $in->date_create = date('y-m-d h:m:s');
+                $price = Price::model()->findByPk($price_id)->rate;
+                $total_week = $data->total;
+                $in->lesson_id = $lesson_id;
+                $in->total = $price * $total_week;
+                $gg = $in->total;
+               
+            if(!($in->save()))
+            {
+                throw new CHttpException('Unable to save old invoice!');
+            }
+            if(!($s->save()))
+            {
                 throw new CHttpException('Unable to save!');
             }
+            // change old invoice
 
+                // new invoice
+                $invoice = new Invoice;
+                $invoice->number = $_POST['student'] . '000000';
+                $invoice->date_create = date('y-m-d h:m:s');
+                $invoice->status = 1;
+                $price_rate = Price::model()->findByPk($price_id)->rate;
+                
+                $invoice->total = $price_rate * $total_week;
+                $invoice->student_id = $_POST['student'];
+                $invoice->lesson_id = $lesson_id;
+                $invoice->save();
             //save changes to sessions
-            $count = count($data->sessions);
-            $new_student = (string )$_POST['student'];
-            for ($i = 0; $i < $count; $i++) {
+            $count=count($data->sessions);
+            $new_student = (String)$_POST['student'];
+            for ($i=0;$i<$count;$i++)
+            {
                 $session = Session::model()->findByPk($data->sessions[$i]->id);
-
-                if (count(explode(',', $session->students_id)) >= 4) {
-                    throw new CHttpException('only 4 students in the sessions!');
+                
+                if (count(explode(',',$session->students_id)) >=4)
+                {
+                     throw new CHttpException('only 4 students in the sessions!');
                 }
                 //echo $session->students_id;
                 //break;
-                $session->students_id = $session->students_id . ',' . $new_student;
-                if (!($session->save())) {
-                    throw new CHttpException('Unable to save!');
-                }
+                $session->students_id =$session->students_id.','.$new_student;
+               if(!($session->save()))
+            {
+                throw new CHttpException('Unable to save!');
+            }
             }
             //break;
-            //
-
-            $message = "Save Successful!!!";
-        }
-
-        $this->render('manageLessonGroup', array('message' => $message, 'data' => $data));
-
-    }
+            // 
+            
+           $message = "Save Successful!!!";
+           }
+	      
+	       $this->render('manageLessonGroup',array('message'=>$message,'data'=>$data,'test'=>$old_student_id));
+	      
+	   }
     public function actionManageInvoice()
     {
         $invoice = new Invoice('search');
@@ -345,8 +382,9 @@ $message = null;
 	}
         public function actionViewInvoice($student_id, $invoice_id)
 	{
-            	$invoice = Invoice::model()->findByPk($invoice_id);
+            	$invoice = Invoice::model()->findByPk($invoice_id);        
                 $student = Student::model()->findByPk($student_id);
+                $lesson = Lesson::model()->findByPk($invoice->lesson_id);
               //  $totalsession = $payslip->total / Paygrade::model()->findByPk($staff->paygrade_id)->session;
 		//if($payslip===null)
 		//	throw new CHttpException(404,'The requested page does not exist.');
@@ -356,6 +394,7 @@ $message = null;
 		$this->render('viewInvoice',array(
 			'invoice'=>$invoice,
                         'student'=>$student,
+                        'lesson'=>$lesson,
                       //  'sessions'=>$totalsession,
 		));
 	}    

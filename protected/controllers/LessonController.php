@@ -1,6 +1,7 @@
 <?php
 require_once( dirname(__FILE__) . '/../components/ScheduleHelper.php');
 require_once( dirname(__FILE__) . '/../components/PaymentHelper.php');
+require_once( dirname(__FILE__) . '/../components/FormHelper.php');
 
 class LessonController extends Controller
 {
@@ -107,7 +108,9 @@ class LessonController extends Controller
                         $model->price_id=$priceId;
           
           // save lesson
-			$model->attributes=$_POST['Lesson'];
+                        $getsubject = getSubjectList();
+                        $model->subject = $getsubject[$model->subject_id];
+                        $model->total = $total_week;
                         $model->group = 0;
 			if($model->save())
             {
@@ -126,6 +129,7 @@ class LessonController extends Controller
                     $latest_id = 0;
                 else
                 $latest_id = $lastInvoice[0]->id;
+                $invoice->lesson_id = $id;
                 $invoice->number = 'S'.$student_id .'IN'.$latest_id;
                 $invoice->date_create = date('y-m-d h:m:s');
                 $invoice->status = 1;
@@ -270,6 +274,17 @@ class LessonController extends Controller
 	 */
 	public function actionAdmin()
 	{
+            $lesson = new Lesson('search');
+                if (isset($_GET['student_id']))
+            {
+                $dataProvider = $lesson->search($_GET['student_id']);
+            }
+            else
+            {
+                  $dataProvider = $lesson->search();
+            }
+            $student_id = $_GET['student_id'];
+
 		$model=new Lesson('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Lesson']))
@@ -277,6 +292,8 @@ class LessonController extends Controller
 
 		$this->render('admin',array(
 			'model'=>$model,
+                    'dataProvider'=>$dataProvider,
+                    'student'=>$student_id,
 		));
 	}
 

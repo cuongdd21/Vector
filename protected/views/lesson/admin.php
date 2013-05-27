@@ -73,7 +73,7 @@ $('.search-form form').submit(function(){
                 array('header'=>'Student',
         'class'=>'CLinkColumn',
         'label'=>'enroll more',
-        'urlExpression'=>'Yii::app()->createUrl("manage/manageLessonGroup",array("lesson_id"=>$data->id))',
+        'urlExpression'=>'Yii::app()->createUrl("manage/manageLessonGroup",array("lesson_id"=>$data->id,"student"=>$data->student_id,))',
         ),
          array('header'=>'Lesson',
         'class'=>'CLinkColumn',

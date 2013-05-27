@@ -65,6 +65,12 @@ require_once(dirname(__FILE__).'/../../components/FormHelper.php');
 		<?php echo $form->dropDownList($model,'end_week',getWeekList()); ?>
 		<?php echo $form->error($model,'end_week'); ?>
 	</div>
+	<div class="row">
+
+                <?php echo $form->labelEx($model,'subject_id'); ?>
+		<?php echo $form->dropDownList($model,'subject_id',  getSubjectList()); ?>
+		<?php echo $form->error($model,'subject_id'); ?>
+	</div>        
         <div class="row">
         <?php echo CHtml::label('Package','');?>
         <?php echo CHtml::dropDownList('pricePackage', 'P', 

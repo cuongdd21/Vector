@@ -66,9 +66,9 @@ $current_date = new DateTime();
 		  </tr>
 		  
 		  <tr class="item-row">
-		      <td></td>
-		      <td></td>
-                      <td></td>
+		      <td><?php echo "Individual"; ?></td>
+		      <td><?php echo "pre-paid"; ?></td>
+                      <td><?php echo $lesson->subject; ?></td>
 		      <td><?php echo $invoice->total; ?> </td>
 		  </tr>
 

@@ -32,7 +32,9 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('end_week')); ?>:</b>
 	<?php echo CHtml::encode($data->end_week); ?>
 	<br />
-
+	<b><?php echo CHtml::encode($data->getAttributeLabel('subject')); ?>:</b>
+	<?php echo CHtml::encode($data->subject); ?>
+	<br />
 	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('name')); ?>:</b>
 	<?php echo CHtml::encode($data->name); ?>

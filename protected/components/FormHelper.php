@@ -260,5 +260,14 @@ function getPayGradeList()
     $list = CHtml::listData($paygrade, 'id', 'name');
     return $list;
 }
+function getSubjectList()
+{
+    return array(
+        1 => "MATH",
+        2 => "CHEMIST",
+        3 => "PHYSIC",
+        4 => "BIO",
+        );
+}
 
 ?>
