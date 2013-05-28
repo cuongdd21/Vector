@@ -1,10 +1,15 @@
 <?php
 
-function getTimeFromSlot($session, $slot)
-{
+/**
+ * This file assist in displaying the schedule page.
+ *  check staff attendance, student attendance, generating html codes.
+ */
 
-
-}
+/**
+ * check if the staff attend the session or not
+ * @param session, staff
+ * @return boolean
+ */
 function checkStaffAttendance($session, $staff)
 {
     if ($session->attendance == '') {
@@ -22,6 +27,12 @@ function checkStaffAttendance($session, $staff)
 }
 
 
+/**
+ * check student attend the session or not
+ * @param session, student
+ * @return boolena
+ */
+
 function checkStudentAttendance($session, $student)
 {
     if ($session->attendance == '') {
@@ -36,12 +47,14 @@ function checkStudentAttendance($session, $student)
         } else {
             return false;
         }
-
-
     }
 
 }
 
+/**
+ * get the number of days from start_term to now
+ * @return number of days
+ */
 function getDaysToNow()
 {
 
@@ -56,6 +69,11 @@ function getDaysToNow()
     $days = floor($seconds_diff / 3600 / 24);
     return $days;
 }
+/**
+ * get the day from it to text
+ * @param  index
+ * @return day in text
+ */
 function getDayText($i)
 {
     if ($i == 1)
@@ -74,7 +92,11 @@ function getDayText($i)
         return 'Sunday';
 }
 
-
+/**
+ * get the display name of the staff in a particular session
+ * @param session
+ * @return staff text of that sesion
+ */
 function getSessionStaffDisplay($session)
 {
 
@@ -98,6 +120,11 @@ function getSessionStudentsDisplay($session)
 }
 
 
+/**
+ * check if the student has the id in a string of id or not.
+ * @param student, string of students
+ * @return student string
+ */
 function checkStudentInString($student, $string)
 {
     $student = ',' . $student . ',';
@@ -106,6 +133,11 @@ function checkStudentInString($student, $string)
     return strpos($string, $student);
 }
 
+/**
+ * check if the session slot available for a day or not
+ * @param day slot
+ * @return boolean
+ */
 function getSessionAvailable($day, $slot)
 {
     $sessions = $day->sessions;
@@ -113,15 +145,19 @@ function getSessionAvailable($day, $slot)
     for ($i = 0; $i < count($sessions); $i++) {
         if ($sessions[$i]->slot == $slot) {
             return $sessions[$i];
-        } 
-            
+        }
+
 
     }
     return null;
 
 }
 
-
+/**
+ * return the html code for the sessions for a particular weekday
+ * @param arrays of sessions
+ * @return html code
+ */
 function printSessionWeekday($sessions)
 {
     $a = array(
@@ -188,6 +224,11 @@ function printSessionWeekday($sessions)
 
 
 }
+/**
+ * return the html code for the sessions for a particular weekend
+ * @param  array of sessiosn
+ * @return html cede
+ */
 function printSessionWeekend($sessions)
 {
     $a = array(
@@ -231,8 +272,7 @@ function printSessionWeekend($sessions)
         100,
         100,
         100,
-        100
-        );
+        100);
     for ($i = 0; $i < count($sessions); $i++) {
         $a[$sessions[$i]->slot] = $i;
         // a tuong ung voi session tuong ung.

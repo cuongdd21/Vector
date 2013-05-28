@@ -108,7 +108,7 @@ return array(
 			'errorAction'=>'site/error',
 		),
         
-		'log'=>array(
+		/*'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
 				array(
@@ -122,7 +122,7 @@ return array(
 				),
 				
 			),
-		),
+		), */
 	),
 
 	// application-level parameters that can be accessed
