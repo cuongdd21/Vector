@@ -37,8 +37,7 @@ function getRoomTime($session)
 
         $a['room'] = $slot2 - $temp * 5 + 1;
     } else {
-        echo 'b';
-        die;
+
         $slot2 = $slot - 1;
         $temp = floor($slot2 / 5);
         switch ($temp) {
